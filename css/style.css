@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Quicksand');
+body {
+	font-family: Quicksand, Helvetica, sans-serif;
+	line-height: normal;
+}
+header, footer {
+	background-color: rgba(233, 181, 12, 0.753);
+	color: black;
+	padding:10px;
+	text-align: center;	
+
+}
+header{
+	background-color: rgba(233, 181, 12, 0.753);
+	padding:10px;
+	max-width: 80px;
+	max-height: 80px;
+	
+}
+header, footer, main {
+	max-width: 700px;
+	margin: 0 auto;
+}
+h1 {
+	font-family:Lora, Georgia, Courier; 
+	font-size: 40px;
+    color:  rgb(14, 13, 13);
+	text-align: center;
+	margin-right: 150px;
+
+}
+h2 {
+	font-size: 1.50em;
+	color:green;
+	
+}
+header img {
+	margin-left: 589px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+	height: 157px;
+	width: auto;
+	margin-top: -100px;
+}
+main {
+	padding-left: 20px;
+}
+li a {
+	color: green;
+	text-decoration: none;
+}
+li a:hover {
+	color: blue;
+}
+
+footer p a {
+	
+	color:black;
+}
+footer p a:hover {
+	color: rgb(24, 5, 80);
+}
+#outcome {
+    color: green;
+    font-size: 12.5px;
+}
