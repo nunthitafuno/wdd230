@@ -66,10 +66,9 @@ footer p a:hover {
 }
 @media screen and (max-width: 405px) {
     
-header {
-     grid-template-columns: auto 54.8px;
-	 max-width: 600px;
-	 max-height: 600px;
+header, footer {
+    max-width: 600px;
+	max-height: 600px;
 	}
 h1 {
 
