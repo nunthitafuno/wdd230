@@ -18,7 +18,8 @@ header{
 }
 header, footer, main {
 	max-width: 600px;
-	margin: 0 auto;
+	margin: auto;
+		
 }
 h1 {
 	font-family:Lora, Georgia, Courier; 
@@ -30,21 +31,28 @@ h1 {
 h2 {
 	font-size: 1.50em;
 	color:green;	
+	border-bottom: solid 1px #110e0e;
+    margin-bottom: 0;
+    width: 99%;
+	
 }
 header img {
 	margin-left: 589px;
     box-shadow: 1px 1px 10px black;
     border-radius: 5px;
-	height: 157px;
+	height: 159px;
 	width: auto;
 	margin-top: -100px;
 }
 main {
 	padding-left: 20px;
+	
 }
 li a {
-	color: green;
+	color:green;
 	text-decoration: none;
+	
+
 }
 li a:hover {
 	color: blue;
@@ -65,10 +73,10 @@ footer p a:hover {
     h1 {
 		margin-right: 50px;
 		text-align: center;
+		margin-right: 50px;
     }
     header img {
-         float: right;
+	    margin-left: 490px;
+         
     }
 }
-
-
