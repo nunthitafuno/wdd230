@@ -37,7 +37,7 @@ h2 {
 	
 }
 header img {
-	margin-left: 490px;
+	margin-left: 589px;
     box-shadow: 1px 1px 10px black;
     border-radius: 5px;
 	height: 159px;
@@ -69,34 +69,14 @@ footer p a:hover {
     color: green;
     font-size: 12.5px;
 }
-
-@media screen and (max-width: 550px) {
-   
-	body {
-		display: block;
-	  }
-	
-	  header {
-		background-position: center 1em;
-		border-bottom: none;
-		padding-top: 12.4em;
-	  }
-	
-	  h1 {
-		padding-top: 0.25em;
-		border-top: 0.0417em solid var(--accent1-color);
+@media only screen and (min-width: 32.5em) {
+    h1 {
+		margin-right: 50px;
 		text-align: center;
-	  }
-	
-	  main {
-		padding: 0 1.5em 2.5em 1.5em;
-	  }
-	
-	  footer {
-		padding: 1em;
-	
+		margin-right: 50px;
     }
     header img {
-	    margin-right: -200px;
-	}
+	    margin-left: 490px;
+         
+    }
 }
