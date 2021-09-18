@@ -69,6 +69,7 @@ footer p a:hover {
 header {
      grid-template-columns: auto 54.8px;
 	 max-width: 600px;
+	 max-height: 600px;
 	}
 h1 {
 
