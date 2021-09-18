@@ -13,9 +13,8 @@ header, footer {
 header{
 	background-color: rgba(233, 181, 12, 0.753);
 	padding:10px;
-	max-width: 80px;
-	max-height: 80px;
-	
+	max-width: 700px;
+		
 }
 header, footer, main {
 	max-width: 700px;
@@ -27,12 +26,10 @@ h1 {
     color:  rgb(14, 13, 13);
 	text-align: center;
 	margin-right: 150px;
-
 }
 h2 {
 	font-size: 1.50em;
-	color:green;
-	
+	color:green;	
 }
 header img {
 	margin-left: 589px;
@@ -73,3 +70,5 @@ footer p a:hover {
          float: right;
     }
 }
+
+
