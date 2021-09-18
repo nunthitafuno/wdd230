@@ -68,6 +68,7 @@ footer p a:hover {
     
 header {
      grid-template-columns: auto 54.8px;
+	 max-width: 400px;
 	}
 h1 {
 
@@ -81,5 +82,5 @@ h1 {
     h2 {
         font-size: 1.2em;
     }
-         
+
 }
