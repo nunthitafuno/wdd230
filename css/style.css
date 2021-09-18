@@ -64,3 +64,20 @@ footer p a:hover {
     color: green;
     font-size: 12.5px;
 }
+@media screen and (max-width: 550px) {
+	body {
+	  display: block;
+	}
+  
+	header {
+	  background-position: center 1em;
+	  border-bottom: none;
+	  padding-top: 12.4em;
+	}
+  
+	h1 {
+	  padding-top: 0.25em;
+	  border-top: 0.0417em solid var(--accent1-color);
+	  text-align: center;
+	}
+}
