@@ -8,8 +8,13 @@ header, footer {
 	color: black;
 	padding:10px;
 	text-align: center;	
-	max-width: 97px;
-	max-height: 97px;
+
+}
+header{
+	background-color: rgba(233, 181, 12, 0.753);
+	padding:10px;
+	max-width: 80px;
+	max-height: 80px;
 }
 header, footer, main {
 	max-width: 600px;
@@ -32,13 +37,12 @@ h2 {
 	
 }
 header img {
-	margin-right: -490px;
+	margin-left: 589px;
     box-shadow: 1px 1px 10px black;
     border-radius: 5px;
 	height: 159px;
 	width: auto;
 	margin-top: -100px;
-	
 }
 main {
 	padding-left: 20px;
@@ -47,8 +51,9 @@ main {
 li a {
 	color:green;
 	text-decoration: none;
-}
+	
 
+}
 li a:hover {
 	color: blue;
 }
@@ -64,22 +69,14 @@ footer p a:hover {
     color: green;
     font-size: 12.5px;
 }
-@media screen and (max-width: 405px) {
-    
-header, footer {
-    grid-template-columns: auto 54.8px;
-	}
-h1 {
-
-	font-size: 1.7em; 
-
+@media only screen and (min-width: 32.5em) {
+    h1 {
+		margin-right: 50px;
+		text-align: center;
+		margin-right: 50px;
     }
-    header img{
-		float: right;
-	
+    header img {
+	    margin-left: 490px;
+         
     }
-    h2 {
-        font-size: 0.9em;
-    }
-
 }
