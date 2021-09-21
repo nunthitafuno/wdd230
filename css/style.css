@@ -23,13 +23,13 @@ header, footer, main {
 }
 h1 {
 	font-family:Lora, Georgia, Courier; 
-	font-size: 34px;
+	font-size: 30px;
     color:  rgb(14, 13, 13);
 	text-align: center;
 	margin-right: 150px;
 }
 h2 {
-	font-size: 1.50em;
+	font-size: 1.27em;
 	color:green;	
 	border-bottom: solid 1px #110e0e;
     margin-bottom: 0;
@@ -42,7 +42,7 @@ header img {
     border-radius: 5px;
 	width: 117px;
 	height: auto;
-	margin-top: -92px;
+	margin-top: -79px;
 }
 main {
 	padding-left: 20px;
