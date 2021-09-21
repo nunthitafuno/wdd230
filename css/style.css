@@ -13,8 +13,8 @@ header, footer {
 header{
 	background-color: rgba(233, 181, 12, 0.753);
 	padding:10px;
-	max-width: 80px;
-	max-height: 80px;
+	max-width: 75px;
+	max-height: 75px;
 }
 header, footer, main {
 	max-width: 600px;
@@ -23,7 +23,7 @@ header, footer, main {
 }
 h1 {
 	font-family:Lora, Georgia, Courier; 
-	font-size: 40px;
+	font-size: 35px;
     color:  rgb(14, 13, 13);
 	text-align: center;
 	margin-right: 150px;
@@ -33,15 +33,17 @@ h2 {
 	color:green;	
 	border-bottom: solid 1px #110e0e;
     margin-bottom: 0;
-    width: 99%;
+    width: 79%;
 	
 }
 header img {
-	margin-left: 589px;
+	float: right;
     box-shadow: 1px 1px 10px black;
     border-radius: 5px;
-	height: 159px;
-	width: auto;
+	width: 117px;
+	height: auto;
+	
+
 	margin-top: -100px;
 }
 main {
@@ -68,15 +70,4 @@ footer p a:hover {
 #outcome {
     color: green;
     font-size: 12.5px;
-}
-@media only screen and (min-width: 32.5em) {
-    h1 {
-		margin-right: 50px;
-		text-align: center;
-		margin-right: 50px;
-    }
-    header img {
-	    margin-left: 490px;
-         
-    }
 }
