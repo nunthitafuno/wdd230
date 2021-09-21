@@ -15,9 +15,16 @@ header{
 	padding:10px;
 }
 header, footer, main {
-	max-width: 612px;
+	max-width: 700px;
 	margin: auto;
 		
+}
+header img {
+	float: right;
+	width: 20%;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+    margin-top: -79px;
 }
 h1 {
 	font-family:Lora, Georgia, Courier; 
@@ -32,14 +39,6 @@ h2 {
 	border-bottom: solid 1px #110e0e;
     margin-bottom: 0;
     width: 98%;
-	
-}
-header img {
-	float: right;
-    box-shadow: 1px 1px 10px black;
-    border-radius: 5px;
-	width: 20%;
-	margin-top: -79px;
 }
 main {
 	padding-left: 20px;
