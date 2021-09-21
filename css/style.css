@@ -36,11 +36,12 @@ h2 {
 	
 }
 header img {
-	float: right;
-	width: 20%;
+	float:right;
     box-shadow: 1px 1px 10px black;
     border-radius: 5px;
-	margin-top: -78px;
+	width: 117px;
+	height: auto;
+	margin-top: -79px;
 }
 main {
 	padding-left: 20px;
