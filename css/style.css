@@ -36,7 +36,7 @@ h2 {
 	
 }
 header img {
-	float: right;
+	
     box-shadow: 1px 1px 10px black;
     border-radius: 5px;
 	width: 117px;
@@ -68,20 +68,4 @@ footer p a:hover {
 #outcome {
     color: green;
     font-size: 12.5px;
-}
-@media screen and (max-width: 404px) {
-    header {
-        grid-template-columns: auto 54.8px;
-    }
-	h1{
-		font-size: 0.50em;
-	}
-    h2 {
-        text-align: center;
-    }
-    ul {
-        padding-left: 20px;
-        height: 80%;
-    }
-
 }
