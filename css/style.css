@@ -42,7 +42,7 @@ header img {
     border-radius: 5px;
 	width: 117px;
 	height: auto;
-	margin-top: -92px;
+	margin-top: -99px;
 }
 main {
 	padding-left: 20px;
@@ -69,9 +69,9 @@ footer p a:hover {
     color: green;
     font-size: 12.5px;
 }
-@media screen and (max-width: 405px) {
+@media screen and (max-width: 407px) {
     header {
-        grid-template-columns: auto 52.4px;
+        grid-template-columns: auto 54.8px;
     }
     h2 {
         text-align: center;
