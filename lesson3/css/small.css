@@ -106,12 +106,14 @@ footer p a:hover {
 }
 #colorTable tr {
 	height: 300px;
+
 }
 #colorTable tr td {
-	text-align: center;
+	align-self: start;
 	vertical-align: bottom;
-	width: 250px;
+	width: 122px;
 	padding: 15px;
+    
 }
 #colorTable tr td:nth-child(1), 
 #colorTable tr td:nth-child(5) {
