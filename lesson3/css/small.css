@@ -51,6 +51,12 @@ footer p a {
 footer p a:hover {
 	color:  #87aeb4;
 }
+#outcome  {
+    padding-top: 4.5px;
+    display: block;
+    font-size: 0.8em;
+    color:#99C5FF;
+}
 /* background colors */
 .backgroundWhite {
 	background-color: #ffffff;
