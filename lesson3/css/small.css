@@ -8,7 +8,7 @@ header, footer, main, nav {
 }
 header, footer {
 	background-color: #DD7E8B;
-	color: #ffffff;
+	color: #000000;
 	padding: 15px;
 	display: flex;
 	align-items: center;
@@ -46,7 +46,7 @@ a {
 	text-decoration: none;
 }
 footer p a {
-	color: #ffffff;
+	color: #000000;
 }
 footer p a:hover {
 	color:  #87aeb4;
@@ -69,7 +69,7 @@ footer p a:hover {
 }
 /* text colors */
 .textWhite {
-	color: #ffffff;
+	color: #000000;
 }
 .textYellow {
 	color: #FFE770;
