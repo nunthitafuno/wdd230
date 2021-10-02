@@ -17,4 +17,7 @@
     #typographyTable tr td, #typographyTable tr th {
         padding: 15px;
     }
+    #colorTable {
+        align-content: center;
+    }
 }
