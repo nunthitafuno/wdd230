@@ -113,18 +113,18 @@ footer p a:hover {
 /* color-scheme table settings */
 #colorTable {
 	border-collapse: collapse;
-	margin: 299px;
-    margin-top: 12%;
-   
- } #colorTable tr {
-    height: 377px;
+	margin: 15px;
+
+}  
+#colorTable tr {
+    height: 300px;
         
     
 }
 #colorTable tr td {
 	align-self: center;
 	vertical-align: bottom;
-    
+    width: 249px;
 	padding: 20px;
     }
 #colorTable tr td:nth-child(1), 
