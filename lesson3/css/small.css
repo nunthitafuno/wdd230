@@ -1,21 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Lora|Quicksand');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 body {
-	font-family: Quicksand, Helvetica, sans-serif;
+        
+    font-family: Quicksand, Helvetica, sans-serif;
 }
 header, footer, main, nav {
-	max-width: 80em;
+	max-width: 100%;
 	margin: 0 auto;
 }
 header, footer {
 	background-color: #DD7E8B;
 	color: #000000;
-	padding: 15px;
+	padding: 10px;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
+    align-items: center;
+    justify-content: center;
 	flex-direction: column;
+
 }
+
+
 main {
 	padding: 15px;
 }
@@ -31,16 +36,21 @@ li {
 }
 h1 {
 	font-size: 32px;
+   
+    
 }
 h2 {
 	font-size: 22px;
+ 
 }
 h3 {
 	font-size: 17px;
+   
 }
 h4 {
 	text-decoration: underline;
 	font-size: 17px;
+  
 }
 a {
 	text-decoration: none;
@@ -49,7 +59,7 @@ footer p a {
 	color: #000000;
 }
 footer p a:hover {
-	color:  #87aeb4;
+	color:  #99C5FF;
 }
 /* background colors */
 .backgroundWhite {
@@ -63,6 +73,7 @@ footer p a:hover {
 }
 .backgroundPink {
 	background-color: #DD7E8B;
+   
 }
 .backgroundBlack {
 	background-color: #000000;
@@ -102,19 +113,20 @@ footer p a:hover {
 /* color-scheme table settings */
 #colorTable {
 	border-collapse: collapse;
-	margin: 15px;
-}
-#colorTable tr {
-	height: 300px;
-
-}
-#colorTable tr td {
-	align-self: start;
-	vertical-align: bottom;
-	width: 122px;
-	padding: 15px;
+	margin: 312px;
+    margin-top: 12%;
+   
+ } #colorTable tr {
+    height: 377px;
+        
     
 }
+#colorTable tr td {
+	align-self: center;
+	vertical-align: bottom;
+    
+	padding: 20px;
+    }
 #colorTable tr td:nth-child(1), 
 #colorTable tr td:nth-child(5) {
 	display: none;
@@ -124,7 +136,10 @@ footer p a:hover {
 	border-collapse: collapse;
 	margin: 15px;
 	font-size: 10px;
-}
+} 
+
+
+
 #typographyTable tr td, #typographyTable tr th {
 	border:1px solid #000000;
 	padding: 5px;
