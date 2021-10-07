@@ -19,6 +19,7 @@ header {
 header img {
 	width: 80px;
 	height:	auto;
+    margin-left: -144px;
 }
 .headings {
 	display: flex;
@@ -26,15 +27,15 @@ header img {
 	margin-left: 10px;
 }
 .headings h1 {
-	font-size: 21px;
+	font-size: 19px;
 	color: #000000;
-	margin: 0;
+	margin: 0px;
 }  
    
 .moto {
         color: #000000;
         font-style: italic;
-        font-size: 9px;
+        font-size: 11px;
 
 }
 /*header navigation */
@@ -70,7 +71,7 @@ nav a:hover {
 	background-color:#DD7E8B;
 	color: #ffffff;
 }
-.active {
+.menuname {
 	background-color: #99C5FF;
 	border-left: 4px solid  #DD7E8B;
 	border-right: 4px solid #DD7E8B;
