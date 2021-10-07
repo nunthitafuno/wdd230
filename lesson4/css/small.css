@@ -70,12 +70,12 @@ nav a:hover {
 	background-color:#DD7E8B;
 	color: #ffffff;
 }
-.menuname {
+.active {
 	background-color: #99C5FF;
 	border-left: 4px solid  #DD7E8B;
 	border-right: 4px solid #DD7E8B;
 }
-/* temp main divs */
+/* placeholder main*/
 main {
 	display: flex;
 	flex-direction: column;
