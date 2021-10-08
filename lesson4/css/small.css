@@ -94,7 +94,7 @@ footer {
 	display: flex;
 	justify-items: center;
 	justify-content: center;
-	align-self: center;
+	text-align: center;
 }
 footer p {
 	font-size: 14px;
