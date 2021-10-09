@@ -27,7 +27,7 @@ header img {
 	margin-left: 10px;
 }
 .headings h1 {
-	font-size: 19px;
+	font-size: 20px;
 	color: #000000;
 	margin: 0px;
 }  
@@ -35,7 +35,7 @@ header img {
 .moto {
         color: #000000;
         font-style: italic;
-        font-size: 11px;
+        font-size: 10px;
 
 }
 /*header navigation */
@@ -58,7 +58,7 @@ nav {
 }
 .navigation a {
 	display: block;
-	font-size: 16px;	
+	font-size: 14px;	
 	color: #000000;
 	text-decoration: none;
 	padding-top: 15px;
@@ -97,7 +97,7 @@ footer {
 	text-align: center;
 }
 footer p {
-	font-size: 14px;
+	font-size: 12px;
 }
 /* typography */
 h1 {
@@ -105,7 +105,7 @@ h1 {
 	color: #DD7E8B;
 }
 h2 {
-	font-size: 16px;
+	font-size: 17px;
 	color: #000000;
 }
 h3 {
