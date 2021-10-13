@@ -3,11 +3,9 @@ body {
     font-family: Quicksand, Helvetica, sans-serif;
 }
 main {
-	max-width: 200%;
-    padding: 4px;
-	margin: 197px;
-	margin-top: 4px;
-	margin-bottom: 0px;
+	max-width: 80em;
+	margin: 0 auto;
+	padding: 10px;
 }
 header, nav, footer, #prestonPancakes {
 	margin: 0 auto;
@@ -15,15 +13,15 @@ header, nav, footer, #prestonPancakes {
 /* typography */
 h1 {
 	font-size: 20px;
-	color: #153e5c;
+	color: #000000;
 }
 h2 {
 	font-size: 16px;
-	color: #153e5c;
+	color: #000000;
 }
 h3 {
 	font-size: 14px;
-	color: #153e5c;
+	color:#000000;
 }
 p, label {
 	font-size: 12px;
@@ -33,11 +31,10 @@ a {
 }
 /* heading */
 header {
-	background-color: #153e5c;
+	background-color:#DD7E8B;;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	max-width: 59.8em;
 }
 header img {
 	width: 80px;
@@ -50,24 +47,22 @@ header img {
 }
 .headings h1 {
 	font-size: 20px;
-	color: #ffffff;
+	color: #000000;;
 	margin: 0;
 }
 .moto {
-	color: #f2be54;
+	color: #000000;
 	font-style: italic;
 	font-size: 12px;
 }
 /*header navigation */
 nav {
-	background-color: #f2be54;
-	max-width: 59.9em;
-
+	background-color: #FFE770;
 }
 .navigation {
-	max-width: 64em;
+	max-width: 80em;
 	list-style: none;
-	background-color: #f2be54;
+	background-color: #FFE770;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -90,26 +85,23 @@ nav {
 	display: block;
 }
 nav a:hover {
-	background-color: #153e5c;
-	color: #ffffff;
+	background-color: #DD7E8B;
+	color: #000000;;
 }
 .active {
-	background-color: #cacfd4;
-	border-left: 4px solid #153e5c;
-	border-right: 4px solid #153e5c;
-	
+	background-color: #99C5FF;
+	border-left: 4px solid #DD7E8B;
+	border-right: 4px solid #DD7E8B;
 }
+
 /* footer */
 #footerBar {
-	background-color: #153e5c;
-	color: #ffffff;
+	background-color: #DD7E8B;
+	color: #000000;;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	max-width: 59.4em;
-	margin-left: 199px;
-	max-height: auto ;
 }
 footer p {
 	font-size: 14px;
@@ -127,7 +119,7 @@ footer p {
 	top: 15px;
 	left: 15px;
 	padding: 10px;
-	background: #cacfd4;
+	background: #99C5FF;
 	border: 2px solid #000000;
 	box-shadow: 0 0 20px #000000;
 	display: none;
@@ -163,8 +155,8 @@ footer p {
 }
 .forcastDay {
 	margin: 0;
-	color: #ffffff;
-	background: #153e5c;
+	color: #000000;
+	background: #DD7E8B;
 	text-align: center;
 	width: 100%;
 	padding-top: 10px; 
@@ -183,7 +175,7 @@ footer p {
 /* article area */
 #articleArea {
 	border: 2px solid #000000;
-	background: #cacfd4;
+	background: #99C5FF;
 	margin-top: 10px;
 	padding: 15px;
 	overflow: auto;
@@ -202,12 +194,10 @@ footer p {
 #contactArea {
 	display: grid;
 	grid-template-columns: 1fr 1fr;	
-	background-color: #f2be54;
+	background-color: #FFE770;
 	padding: 15px;
 	grid-gap: 75px;
 	align-items: center;
-	max-width: 57.5em;
-	margin-left: 200px;
 }
 #mapImg {
 	display: none;
@@ -235,7 +225,7 @@ footer p {
 /* preston page alert */
 #prestonPancakes {
 	display: none;
-	background: #f2be54;
+	background: #FFE770;
 	padding: 15px;
 	text-align: center;
 }
