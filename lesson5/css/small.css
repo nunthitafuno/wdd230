@@ -196,7 +196,7 @@ footer p {
 	align-items: center;
 }
 #mapImg {
-	display: none;
+	
 	height:	auto;
 	justify-self: end;
 	width: 100%;
@@ -220,7 +220,7 @@ footer p {
 }
 /* preston page alert */
 #prestonPancakes {
-	display: none;
+	
 	background: #FFE770;
 	padding: 15px;
 	text-align: center;
