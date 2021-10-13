@@ -122,7 +122,7 @@ footer p {
 	background: #99C5FF;
 	border: 2px solid #000000;
     grid-template-columns: auto auto;
-	max-width: 120;
+	max-width: 170px;
 }
 #weatherSummary h3 {
 	grid-column: 1 / 3;	
