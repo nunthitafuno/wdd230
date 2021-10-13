@@ -201,6 +201,7 @@ footer p {
 	justify-self: end;
 	width: 100%;
 	max-width: 488px;
+	display: none;
 }
 #contactTextArea {
 	display: flex;
