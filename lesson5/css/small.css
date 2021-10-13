@@ -121,8 +121,7 @@ footer p {
 	padding: 10px;
 	background: #99C5FF;
 	border: 2px solid #000000;
-	box-shadow: 0 0 20px #000000;
-	display: none;
+	
 	grid-template-columns: auto auto;
 }
 #weatherSummary h3 {
@@ -188,7 +187,7 @@ footer p {
 	width: 100%;
 	height:	auto;
 	display: block;
-	box-shadow: 0 0 20px #000000;
+	
 }	
 /* contact area */
 #contactArea {
