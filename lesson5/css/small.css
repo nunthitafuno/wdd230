@@ -136,10 +136,7 @@ footer p {
 	text-align: right;
 	font-weight: bold;
 }
-/* five day forcast area */
-#forcastArea {
-	display: none;
-}
+
 #forcastFive {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
