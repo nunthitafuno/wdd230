@@ -124,7 +124,9 @@ footer p {
 	padding: 19px;
 	opacity: .8;
 	text-align:center ;
+	grid-template-columns: auto auto;
 }
+
 
 .forcast-summary p {
 	margin: 0;
