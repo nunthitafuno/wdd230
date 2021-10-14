@@ -6,7 +6,7 @@
         font-size: 25px;
     }
     h3 {
-        font-size: 20px;
+        font-size: 17px;
     }
     p {
         font-size: 16px;
@@ -39,5 +39,8 @@
     footer p {
         font-size: 20px;
     }
-
+    #weatherSummary{
+        max-width: 70px;
+    }
+    
 }
