@@ -172,7 +172,6 @@ footer p {
 	color: #000000;
 	font-weight: bold;
 }	
-/* article area */
 #articleArea {
 	border: 1px solid #000000;
 	background: #99C5FF;
@@ -188,9 +187,8 @@ footer p {
 	width: 100%;
 	height:	auto;
 	display: block;
-	
-}	
-/* contact area */
+}
+
 #contactArea {
 	display: grid;
 	grid-template-columns: 1fr 1fr;	
@@ -219,7 +217,10 @@ footer p {
 	margin-top: 0;
 
 }
-/* preston page alert */
+.socialLogo{
+	width: 27px;
+	height:	auto;
+}
 #prestonPancakes {
 	display: none;
 	background: #FFE770;
