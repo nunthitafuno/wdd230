@@ -40,8 +40,8 @@
     footer p {
         font-size: 20px;
     }
-    #weatherSummary {
-        display: grid;
+    .forcast-summary {
+        display:block;
     }
     #forcastArea {
         display: block;
