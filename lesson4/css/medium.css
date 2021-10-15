@@ -1,4 +1,4 @@
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 80em) {
     h1 {
         font-size: 30px;
     }
@@ -39,8 +39,6 @@
     footer p {
         font-size: 20px;
     }
-    #weatherSummary{
-        max-width: 70px;
-    }
+    
     
 }

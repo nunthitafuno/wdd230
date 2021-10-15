@@ -51,6 +51,9 @@ nav {
 	display: block;
 
 }
+.navigation li {
+	display: none;
+}
 
 .navigation a {
 	display: block;
