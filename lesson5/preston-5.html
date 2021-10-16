@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,18 +36,30 @@
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <div id="heroArea">
-            <img src="https://picsum.photos/500/200" alt="picturebanner">
-            <section class="forcast-summary">
-                <h3>Weather Summary</h3>
-                <p>Currently: <span id="currently">Sunny</span></p>
-                <p>High: <span id="high">76&deg;F</span></p>
-                <p>Wind chill: <span id="wind">&deg;F</span></p>
-                <p>Humidity: <span id="humidity">69%</span></p>
-                <p>Wind Speed: <span id="speed">5 mph</span></p>
-
-            </section>
+        <section class="hero-img">
+            <img src="https://picsum.photos/700/200" alt="picturebanner">
+            <div class="weather-summary">
+                <h4 class="ws-h4">Weather Summary</h4>
+                <table class="ws-table">
+                    <tr>
+                        <td class="title-data">Currently: </td><td class="sum-data">Sunny</td>
+                    </tr>
+                    <tr>
+                        <td class="title-data">High: </td><td class="sum-data"><span id="d-temp">21</span> &#176;F</td>
+                    </tr>
+                    <tr>
+                        <td class="title-data">Wind Chill: </td><td class="sum-data"><span id="d-wind-c"></span> &#176;F</td>
+                    </tr>
+                    <tr>
+                        <td class="title-data">Humidity: </td><td class="sum-data"><span id="d-humid">22</span>%</td>
+                    </tr>
+                    <tr>
+                        <td class="title-data">Wind Speed: </td><td class="sum-data"><span id="d-wind-s">65</span> mph</td>
+                    </tr>
+                
+            </table>
         </div>
+    </section>
         <div id="forcastArea">
             <h2>Five Day Forecast</h2>
             <div id="forcastFive">
@@ -79,29 +90,31 @@
                 </div>
             </div>
         </div>
-        <div id="articleArea">
-            <h3>Article Title</h3>
-            <img src="images/articlepic.jpg" alt="picture our shy subject of article!">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit!</p>
-        </div>
-
+            <div id="articleArea">
+                <h4>Article Title</h4>
+                <img src="images/articlepic.jpg" alt="picture of home twon">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit!</p>
+            </div>
     </main>
     <footer>
-        <div id="contactArea">
-            <img id="mapImg" src="images/prestonmap.jpg" alt="preston map">
-            <section id="contactTextArea">
-                <h3>Contact Information</h3>
-                <p>32 N 1st E<br>Preston, ID 84273</p>
-                <br>
-                <p>☎7892.7777.9999<br>✉ contact@btw.com</p>
-              <div>
-                    <a href="https://facebook.com/"><img class="socialLogo" src="images/facebook.png" alt="facebook icon">&ensp;</a>
-                    <a href="https://instagram.com/"><img class="socialLogo" src="images/instagram.png" alt="pintrest icon">&ensp;</a>
-                    <a href="https://twitter.com/"><img class="socialLogo" src="images/twitter.png" alt="twitter icon"></a>
-                </div>
-            </section>
-        </div>   
+        <div class = "contactarea">
+        
+        <div class = "detail">
+           <h3>Contact Information</h3>
+            <ul>
+                <li>31 N 1st E<br>Preston, ID 83777</li>
+                
+               <li>☎ 999.999.9999<br>✉ contact@stw.com</li>
+            </ul>
+        </div>
+        <img class = "preston-map" src = "images/prestonmap.jpg" alt = "Preston Map" width="500" height="300">
+        <div class = "socialArea">
+            <a target = "blank" href = "https://www.facebook.com/"><img class = "facebook" src = "images/facebook.png" alt = "facebook icon"></a>
+            <a target = "blank" href = "https://www.twitter.com/"><img class = "twitter" src = "images/twitter.png" alt = "twitter icon"></a>
+            <a target = "blank" href = "https://www.instagram.com/"><img class = "instagram" alt = "instagram icon" src = "images/instagram.png"></a>
+            </div>
+            </div>
         <div id="footerBar">
             <p>&copy;Whether weather| Attributions| Nunthita Samrith
             <br><span id="outcome"></span></p>
