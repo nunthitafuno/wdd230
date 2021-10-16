@@ -90,7 +90,7 @@
 .preston-map{
     grid-column: 1/6;
     grid-row: 1/6;
-    margin: 0;
+    
 }
 .info{
     grid-column: -1/-3;

@@ -206,11 +206,9 @@ footer p {
 
 .preston-map{
 	max-width: 100%;
-	max-height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
+	max-height: auto;
 
+}
 footer{
 	background-color:#FFE770;
 	padding: 1%;
