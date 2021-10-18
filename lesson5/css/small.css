@@ -112,10 +112,9 @@ footer p {
 }
 .hero-img img {
     width: 100%;
-	height:	auto;
+	object-fit: contain;
 }
 .ws-table {
-    
     color:#000000 ;
     margin: 0 auto;
 }
@@ -124,11 +123,13 @@ footer p {
     width: 50%;
     text-align: center;
 	font-weight: bold;
+	
 }
 
 .sum-data {
     width: 50%;
     padding-left: 5px;
+
    
 }
 
@@ -141,13 +142,12 @@ footer p {
 }
 
 .weather-summary {
-    width: 100%;
-    margin-top: 15px;
+	margin:auto;
+	margin-top: 12px;
     padding: 10px;
-    z-index: 2;
+    padding-bottom: 17px;
 	border: solid #000000;
 	background-color: #99C5FF;
-
 
 }
 
@@ -207,6 +207,7 @@ footer p {
 .preston-map{
 	max-width: 100%;
 	max-height: auto;
+	margin-left: 2em;
 
 }
 footer{
@@ -219,11 +220,15 @@ footer{
 	width: 20px;
 	height:	auto;
 	display: none;
+	margin-left: 2em;
+
 }
 .detail{
 	grid-column: -1/-3;
 	grid-row: 1/3;
-	color: #0F2B38;
+	color: #000000;
+	margin-top: 1em;
+	margin-left: 2em;
 
 }   /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
@@ -242,5 +247,6 @@ footer{
 #prestonPancakes p {
 	margin: 0;
 }
+
 
 
