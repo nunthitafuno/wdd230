@@ -212,8 +212,8 @@ footer p {
 }
 footer{
 	background-color:#FFE770;
-	padding: 1%;
-	display: block;
+    padding: 0.1em;
+    display: block;
 
 }
 .socialArea {
