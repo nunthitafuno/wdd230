@@ -34,28 +34,31 @@
             <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
-    <main>
-        <h2>Preston Idaho</h2>
-        <section class="hero-img">
-            
-            <img src="https://picsum.photos/500/200" alt="picturebanner">
+     <main class="full-width">
+         <h2 class="page-title">Preston Idaho</h2>
+         <section class="hero-img">
+            <picture>
+                <source media="(min-width: 780px)" srcset="./images/hero-large.jpg">
+                <source media="(min-width: 620px)" srcset="./images/hero-medium.jpg">
+                <img src="./images/hero-small.jpg" alt="small viewport for lesson 6">
+            </picture>
             <div class="weather-summary">
                 <h4 class="ws">Weather Summary</h4>
                 <table class="ws-table">
                     <tr>
-                        <td class="title-data">Currently: </td><td class="sum-data">Sunny</td>
+                        <td class="title-data">Currently: </td><td class="sum-data">Rainy</td>
                     </tr>
                     <tr>
-                        <td class="title-data">High: </td><td class="sum-data"><span id="d-temp">21</span> &#176;F</td>
+                        <td class="title-data">High: </td><td class="sum-data"><span id="d-temp">54</span> &#176;F</td>
                     </tr>
                     <tr>
-                        <td class="title-data">Wind Chill: </td><td class="sum-data"><span id="d-wind-c"></span> &#176;F</td>
+                        <td class="title-data">Wind Chill: </td><td class="data chill"><span id="d-wind-c"></span> &deg;F</td>
                     </tr>
                     <tr>
-                        <td class="title-data">Humidity: </td><td class="sum-data"><span id="d-humid">22</span>%</td>
+                        <td class="title-data">Humidity: </td><td class="sum-data"><span id="d-humid">95</span>%</td>
                     </tr>
                     <tr>
-                        <td class="title-data">Wind Speed: </td><td class="sum-data"><span id="d-wind-s">65</span> mph</td>
+                        <td class="title-data">Wind Speed: </td><td class="sum-data"><span id="d-wind-s">12</span> mph</td>
                     </tr>
                 
             </table>
@@ -96,8 +99,7 @@
                 <img src="images/articlepic.jpg" alt="picture of home twon">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit!</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium animi vitae aliquid sit laborum, a asperiores repellendus sapiente et nulla fuga provident voluptate quis reprehenderit porro cum dolores cupiditate? Velit!</p>
-
-            </div>
+             </div>
     </main>
     <footer>
         <div class = "contactarea">
@@ -122,5 +124,8 @@
         </div> 
     </footer>
     <script src="js/preston.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Quickland"]}});</script>
 </body>
 </html>
