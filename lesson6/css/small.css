@@ -87,7 +87,7 @@ nav a:hover {
 	background-color: #DD7E8B;
 	color: #000000;
 }
-.menuname {
+.active {
 	background-color: #99C5FF;
 	border-left: 4px solid #DD7E8B;
 	border-right: 4px solid #DD7E8B;
@@ -129,7 +129,8 @@ footer p {
 .sum-data {
     width: 50%;
     padding-left: 5px;
-	
+
+   
 }
 
 .ws {
@@ -138,7 +139,6 @@ footer p {
     padding: 6px;
     text-align: center;
     margin-bottom: 4px;
-	font-size: 21px;
 }
 
 .weather-summary {
@@ -206,7 +206,8 @@ footer p {
 
 .preston-map{
 	max-width: 100%;
-    margin-left: 2em;
+	max-height: auto;
+	margin-left: 2em;
 
 }
 footer{
@@ -237,16 +238,13 @@ footer{
   }
 
 /* preston page alert */
-
-/* preston page alert */
 #prestonPancakes {
 	display: none;
-	background:#FFE770;
+	background: #f2be54;
 	padding: 15px;
 	text-align: center;
 }
 #prestonPancakes p {
 	margin: 0;
 }
-
 
