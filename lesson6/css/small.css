@@ -129,8 +129,7 @@ footer p {
 .sum-data {
     width: 50%;
     padding-left: 5px;
-
-   
+	
 }
 
 .ws {
@@ -139,6 +138,7 @@ footer p {
     padding: 6px;
     text-align: center;
     margin-bottom: 4px;
+	font-size: 21px;
 }
 
 .weather-summary {
@@ -191,7 +191,7 @@ footer p {
 	overflow: auto;
 	
 }
-#articleArea h2 {
+#articleArea h3 {
 	margin-top: 10px;
 }
 #articleArea img {
@@ -206,8 +206,7 @@ footer p {
 
 .preston-map{
 	max-width: 100%;
-	max-height: auto;
-	margin-left: 2em;
+    margin-left: 2em;
 
 }
 footer{
@@ -238,15 +237,16 @@ footer{
   }
 
 /* preston page alert */
+
+/* preston page alert */
 #prestonPancakes {
 	display: none;
-	background: #f2be54;
+	background:#FFE770;
 	padding: 15px;
 	text-align: center;
 }
 #prestonPancakes p {
 	margin: 0;
 }
-
 
 
