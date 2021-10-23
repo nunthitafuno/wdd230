@@ -14,5 +14,7 @@
     .navigation a {
         font-size: 20px;
     }
-   
+    #forcastArea h3{
+        font-size: 30px;
+    }
 }
