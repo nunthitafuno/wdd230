@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 body {
-    font-family: Quicksand, Helvetica, sans-serif;
+    font-family: 'Quicksand', Helvetica, sans-serif;
 }
 main {
 	max-width: 80em;
@@ -207,7 +206,6 @@ footer p {
 
 .preston-map{
 	max-width: 100%;
-	max-height: auto;
 	margin-left: 2em;
 
 }
@@ -248,4 +246,3 @@ footer{
 #prestonPancakes p {
 	margin: 0;
 }
-
