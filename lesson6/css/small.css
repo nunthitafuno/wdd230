@@ -87,7 +87,7 @@ nav a:hover {
 	background-color: #DD7E8B;
 	color: #000000;
 }
-.active {
+.menuname {
 	background-color: #99C5FF;
 	border-left: 4px solid #DD7E8B;
 	border-right: 4px solid #DD7E8B;
