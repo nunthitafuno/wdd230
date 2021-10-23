@@ -62,12 +62,12 @@
         width: 100%;
         text-align: center;
         padding-bottom: 8px;
-    }   
+    
+    }     
     #forcastArea h3{
         font-size: 22px;
-        }
-    
-    
+    }
+
     #articleArea img {
         float: right;
         margin-left: 15px;
@@ -89,6 +89,8 @@
    .preston-map{
     grid-column: 1/6;
     grid-row: 1/6;
+ 
+ 
 }
 .detail{
         margin-left: 4em;
@@ -100,6 +102,8 @@
     display: flex;
     grid-gap: 15px;
     margin-left: 4em;
+  
+
 }
 .clearfix:after {
     content: "";

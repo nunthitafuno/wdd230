@@ -15,7 +15,7 @@ h1 {
 	color: #000000;
 }
 h2 {
-	font-size: 18px;
+	font-size: 16px;
 	color: #000000;
 }
 h3 {
@@ -46,13 +46,12 @@ header img {
 	font-size: 20px;
 	color:#000000;
 	margin: 0;
-	font-size: 22px;
 
 }
 .moto {
 	color: #000000;
 	font-style: italic;
-	font-size: 14px;
+	font-size: 12px;
 }
 /*header navigation */
 nav {
@@ -122,12 +121,15 @@ footer p {
 .title-data {
     width: 50%;
     text-align: center;
-	font-weight: bold;	
+	font-weight: bold;
+	
 }
 
 .sum-data {
     width: 50%;
-    padding-left: 5px;  
+    padding-left: 5px;
+
+   
 }
 
 .ws {
@@ -136,7 +138,6 @@ footer p {
     padding: 6px;
     text-align: center;
     margin-bottom: 4px;
-	font-size: 20px;
 }
 
 .weather-summary {
@@ -153,11 +154,6 @@ footer p {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	border: 1px solid #000000;
-	
-}
-#forcastArea h3{
-	font-size: 16px;
-
 }
 .forcastCol {
 	padding: 0;
@@ -194,9 +190,8 @@ footer p {
 	overflow: auto;
 	
 }
-#articleArea h3 {
+#articleArea h2 {
 	margin-top: 10px;
-	font-size: 20px;
 }
 #articleArea img {
 	max-width: 532px;
