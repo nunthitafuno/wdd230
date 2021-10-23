@@ -62,9 +62,11 @@
         width: 100%;
         text-align: center;
         padding-bottom: 8px;
-    
-    }     
-        
+    }   
+
+        #forcastArea h3{
+        font-size: 22px;
+        }
     
     #articleArea img {
         float: right;
