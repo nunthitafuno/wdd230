@@ -87,8 +87,6 @@
    .preston-map{
     grid-column: 1/6;
     grid-row: 1/6;
- 
- 
 }
 .detail{
         margin-left: 4em;
@@ -100,8 +98,6 @@
     display: flex;
     grid-gap: 15px;
     margin-left: 4em;
-  
-
 }
 .clearfix:after {
     content: "";
