@@ -30,9 +30,10 @@ img {
 	height:	auto;
 	filter: blur(0em);
 	transition: filter 0.4s;
+    box-shadow: 2px 2px 4px #424242;
 }
 img[data-src] {
-	filter: blur(0.1em);
+	filter: blur(1.9em);
 }
 a {
 	text-decoration: none;
