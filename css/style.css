@@ -59,7 +59,7 @@ footer p a {
 	color:black;
 }
 footer p a:hover {
-	color: rgb(24, 5, 80);
+	color:  green;
 }
 #outcome {
     color: green;

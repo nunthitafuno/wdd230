@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page is the lesson 7 assignment The Progressive Loading of Images in WDD 230.">
+    <title>WDD 230 | Lesson 7 | Progressive Loading of Images</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <h1>Progressive Loading Images</h1>
+    </header>  
+    <main>
+        <picture>
+            <img src="https://dummyimage.com/300x400/ddd/000&text=Placeholder"
+                 data-src="https://picsum.photos/300/400"
+                 alt="placeholder">
+        </picture>
+        <picture>
+            <img src="https://dummyimage.com/300x400/ddd/000&text=Placeholder"
+                 data-src="https://picsum.photos/299/399"
+                 alt="placeholder">
+        </picture>
+        <picture>
+            <img src="https://dummyimage.com/300x400/ddd/000&text=Placeholder"
+                 data-src="https://picsum.photos/301/401"
+                 alt="placeholder">
+        </picture>
+        <picture>
+            <img src="https://dummyimage.com/300x400/ddd/000&text=Placeholder"
+                 data-src="https://picsum.photos/298/398"
+                 alt="placeholder">
+        </picture>
+        <picture>
+            <img src="https://dummyimage.com/300x400/ddd/000&text=Placeholder"
+                 data-src="https://picsum.photos/302/402"
+                 alt="placeholder">
+        </picture>
+        <picture>
+            <img src="https://dummyimage.com/300x400/ddd/000&text=Placeholder"
+                 data-src="https://picsum.photos/297/397"
+                 alt="placeholder">
+        </picture>
+    </main>
+    <footer>
+        <p><a href="../">Assignment Lesson 7</a></p>
+    </footer>
+    <script src="js/lazy.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Quicksand"]}});</script>
+</body>
+</html>

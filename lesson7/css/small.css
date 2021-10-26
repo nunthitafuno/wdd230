@@ -1,0 +1,46 @@
+body {
+	font-family: 'Quicksand', Arial, sans-serif;
+}
+main {
+	max-width: 80em;
+	margin: 0 auto;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* typography */
+h1 {
+	font-size: 20px;
+	color: #000000;
+}
+/* heading */
+header, footer {
+	background-color: #FFE770;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+picture {
+	max-width: 300px;
+	height: auto;
+}
+img {
+	width: 100%;
+	height:	auto;
+	filter: blur(0em);
+	transition: filter 0.4s;
+}
+img[data-src] {
+	filter: blur(0.1em);
+}
+a {
+	text-decoration: none;
+}
+footer p a {
+	color: rgb(20, 14, 14);
+}
+footer p a:hover {
+	color:  #99C5FF;
+}
+
