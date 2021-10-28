@@ -1,17 +1,17 @@
 
 function compareDateTime() {
-    let storedDate = localStorage.getItem('lastVisitDate');
+    let storedDate = localStorage.getItem('lastVisit');
     if (storedDate != null) {
      
         let convertedStoredDate = new Date(storedDate);
      
         let currentDate = new Date();
     
-        let diff = currentDate.getTime() - convertedStoredDate.getTime();
+        let daysSinceVisit= currentDate.getTime() - convertedStoredDate.getTime();
       
         addDateLocal();
       
-        return Math.floor(diff / (1000 * 3600 * 24));
+        return Math.floor( daysSinceVisit / (1000 * 3600 * 24));
     } else {
       
         addDateLocal();
