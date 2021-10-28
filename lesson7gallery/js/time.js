@@ -22,7 +22,7 @@ function compareDateTime() {
 if ('lastVisit' in localStorage) {
     document.querySelector('#daysSinceVisit').innerHTML = `Welcome Back! It has been ${daysSinceVisit.toFixed(0)} days since your last visit`;
 } else {
-    document.querySelector('#daysSinceVisit').innerHTML = `It looks like this is your first visit to the gallery. Welcome to the Whether Weather site!`;
+    document.querySelector('#daysSinceVisit').innerHTML = `It seems like this is your first visiing to the Whether Weather site. Welcome to Gallery Page!`;
 }
 
 
