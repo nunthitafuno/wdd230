@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page is the Gallery site page assignment in WDD 230.">
+    <title>WDD 230 | lesson 7 | Gallery Page</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+   </head>
+<body>
+    <header>  
+       <img src="images/weatherlogo.png" alt="Whether weather site logo">
+        <section class="headings">
+            <h1>Whether Weather</h1>
+            <div class="moto">we got weather forecast inform!</div>
+            </section>        
+    </header>     
+  <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">☰ Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a class="#" href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li class="menuname"><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+        <div id="wGallery">
+            <div class="galleryPart">
+                <picture>
+                    <img src="images/loading.gif" data-src="./images/galpicone.jpg" alt="Placeholder">
+                </picture>
+                <p>Season SnowStorm</p>             
+            </div>
+            <div class="galleryPart">
+                <picture>
+                     <img src="images/loading.gif" data-src="images/galpictwo.jpg" alt="thunderstorm above forest"> 
+                 </picture>
+                 <p>Thunderstorm at night</p>             
+             </div>
+             <div class="galleryPart">
+                <picture>
+                     <img src="images/loading.gif" data-src="images/galpicthree.jpg" alt="tornado and lighnight over town"> 
+                 </picture>
+                 <p>Storm and Tornado </p>             
+             </div>
+             <div class="galleryPart">
+                <picture>
+                     <img src="images/loading.gif" data-src="images/galpicnine.jpg" alt="Sunshine Forest"> 
+                 </picture>
+                 <p>Green Trees Sunshine Forest</p>             
+             </div>
+             <div class="galleryPart">
+                <picture>
+                     <img src="images/loading.gif" data-src="images/galpicfive.jpg" alt="double raindbow over forest and lake"> 
+                 </picture>
+                 <p>Double Rainbow canim Lake</p>             
+             </div>
+             <div class="galleryPart">
+                <picture>
+                     <img src="images/loading.gif" data-src="images/galpicfour.jpg" alt="foggy cover above tree"> 
+                 </picture>
+                 <p>Foggy Landscape</p>             
+             </div>
+             <div class="galleryPart">
+                <picture>
+                     <img src="images/loading.gif" data-src="images/galpicseven.jpg" alt="full arcing rainbow over field"> 
+                 </picture>
+                 <p>Autumn Daytime Fall</p>             
+             </div>
+             <div class="galleryPart">
+                <picture>
+                     <img src="images/loading.gif" data-src="images/galpicsix.jpg" alt="snowy cover fir trees"> 
+                 </picture>
+                 <p>Snow Cover Fir Trees</p>             
+             </div>
+             <div class="galleryPart">
+                <picture>
+                     <img src="images/loading.gif" data-src="images/galpiceight.jpg" alt="Cloud dusk evening landscape light morning mountain"> 
+                 </picture>
+                 <p>Cloud Dusk Evening</p>             
+             </div>
+        </div>
+    </main>
+    <footer id="footerBar">
+        <p>&copy;Whether Weather | Attributions | Nunthita Samrith
+            <br><span id="outcome"></span></p>
+    </footer>
+    <script src="./js/gallery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Quicksand"]}});</script>
+    <script src="js/time.js" defer></script>
+</body>
+</html>
