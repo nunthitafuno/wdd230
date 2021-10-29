@@ -11,6 +11,6 @@ const firstvisit = localStorage.getItem('dateLastvisit')
 const lastvisit = sessionStorage.getItem('dateLastvisit')
 const different = firstvisit - lastvisit;
 
-document.getElementById('lastVisitdate').innerHTML = "Hey! It has been " + different + " days since you last visit the Gallery.";
+document.getElementById('lastVisitdate').innerHTML = "Hey! It's been " + different + " days since you last visit the Gallery.";
 
 
