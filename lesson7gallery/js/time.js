@@ -1,26 +1,14 @@
-function compareDateTime() {
-    let storedDate = localStorage.getItem('lastVisit');
-    if (storedDate != null) {
-     
-        let convertedStoredDate = new Date(storedDate);
-     
-        let currentDate = new Date();
-    
-        let diff = currentDate.getTime() - convertedStoredDate.getTime();
-      
-        addDateLocal();
-      
-        return Math.floor(diff / (1000 * 3600 * 24));
-    } else {
-      
-        addDateLocal();
-        return 0;   
-    }
-}
+const getDate = new Date()
+const dayOpition = {
+    day: "numeric",
+  };
+  const dayVisit = getDate.toLocaleDateString(undefined, dayOpition);
+localStorage.setItem('day',dayVisit)
 
-if ('lastVisit' in localStorage) {
-    document.querySelector('#diff').innerHTML = `Welcome Back! It has been days since your last visit`;
-} else {
-    document.querySelector('#diff').innerHTML = `It seems like this is your first visiting to the Whether Weather site. Welcome to Gallery Page!`;
-}
+sessionStorage.setItem('day',dayVisit)
 
+const firstvisit = localStorage.getItem('day')
+const lastvisit = sessionStorage.getItem('day')
+const different = firstvisit - lastvisit;
+
+document.getElementById('lastvisit').innerHTML = "Hey! It has been " + different + " days since you last visit the Whether Weather site.";
