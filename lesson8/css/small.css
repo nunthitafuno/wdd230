@@ -110,8 +110,8 @@ footer p {
 /* storm center page */
 form fieldset {
 	margin-bottom: 25px;
-	border: 3px solid #99C5FF;
-	border-radius: 10px;
+	border: 2.7px solid #99C5FF;
+	border-radius: 9px;
 	padding: 10px;
 }
 form legend {
