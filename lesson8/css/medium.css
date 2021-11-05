@@ -46,20 +46,20 @@
     
     /* storm center page */
 
-    #stormCenterPage {
+    #stormPageForm {
         display: grid;
         grid-template-columns: 1fr 1fr;	
         grid-gap: 20px;
     }
-    .reportStormImg {
+    .stormImg {
         display: inline;
         margin: 10px;
     }
-    .reportStormImg img {
+    .stormImg img {
         max-width: 100%;
         max-height: 1008px;
-        border-radius: 10px;
-        box-shadow: 0 0 20px #000000;
+        border-radius: 7px;
+        box-shadow: 0 0 7px #99C5FF;
     }
 
 }

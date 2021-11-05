@@ -89,7 +89,7 @@ nav a:hover {
 	background-color: #DD7E8B;
 	color: #ffffff;
 }
-.active {
+.menuname {
 	background-color: #99C5FF;
 	border-left: 4px solid #DD7E8B;
 	border-right: 4px solid #DD7E8B;
@@ -117,11 +117,12 @@ form fieldset {
 form legend {
 	margin: 0 5px;
 	padding: 0 10px;
+    font-weight: bold;
 }
 form label {
 	display: block;
 }
-.standardLabel {
+.basicLabel {
 	padding: 10px;
 }
 .slider {
@@ -168,7 +169,7 @@ form label {
 .radioLabelLast {
 	padding: 5px 10px 10px 15px;
 }
-.standardInput {
+.basicInput {
 	display: block;
 	padding: 10px;
 	margin-top: 2px;
@@ -195,42 +196,38 @@ input[type="submit"] {
     font-weight: bold;
     background-color: #99C5FF;
     color: #000000;
-    border-radius: 10px;
-	padding: 15px 20px 15px 20px;
-	margin-left: 25px;
-	margin-bottom: 20px;
+    border-radius: 9px;
+	padding: 14px 19px 14px 19px;
+	margin-left: 24px;
+	margin-bottom: 19px;
 }
-/* change placeholder color*/
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder { 
 	color: #888888;
   }
-::-moz-placeholder { /* Firefox 19+ */
+::-moz-placeholder { 
 	color: #888888;
   }
-:-ms-input-placeholder { /* IE 10+ */
+:-ms-input-placeholder { 
 	color: #888888;
   }
-:-moz-placeholder { /* Firefox 18- */
+:-moz-placeholder { 
 	color: #888888;
   }
 .dateColor {
     color: #888888;
 }
-/* change the color of the storm date */
 .dateColor {
 	color: #888888;
 }
-
-/* hidden arrows on num input (zip code) for Chrome, Safari, Edge, Opera*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-/* hidden arrows on num input (zip code) for Firefox */
+
 input[type=number] {
   -moz-appearance: textfield;
 }
-.reportStormImg {
+.stormImg {
 	display: none;
 }
