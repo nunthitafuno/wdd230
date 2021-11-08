@@ -52,20 +52,20 @@ a:hover {
    
 }
 
-.cards section {
+.cards area {
     text-align: center;
     padding: 1rem;
     border: solid 2px #747b7e;
     background-color: #fadde1;
     max-width: 300px;
 }
-.cards section * {
+.cards area * {
     display: block;
     margin: 0 auto;
     padding: 0.25rem;
 
 }
-.cards section img {
+.cards area img {
     width: 72%
    
 }

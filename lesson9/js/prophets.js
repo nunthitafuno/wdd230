@@ -10,7 +10,7 @@ fetch(requestURL)
     
      for (let i = 0; i < prophets.length; i++ ) {
      
-        let card = document.createElement('section');
+        let card = document.createElement('area');
         let h2 = document.createElement('h2');
         let birth = document.createElement('span');
         let place = document.createElement('span');
