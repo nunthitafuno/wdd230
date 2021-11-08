@@ -4,12 +4,12 @@ fetch(requestURL)
   .then(function (response) {
     return response.json();
 })
- .then(function (jsonObject) {
-     const prophets = jsonObject['prophets'];
-
+.then(function (jsonObject) {
+    console.table(jsonObject);
+    const prophets = jsonObject['prophets'];
+    
      for (let i = 0; i < prophets.length; i++ ) {
-        
-     
+        console.log(prophets[i]);
         let card = document.createElement('area');
         let h2 = document.createElement('h2');
         let birth = document.createElement('span');
@@ -26,9 +26,10 @@ fetch(requestURL)
         card.appendChild(birth);
         card.appendChild(place);
         card.appendChild(image);
-        document.querySelector('div.cards').appendChild(card);
        
-        }
+        document.querySelector('div.cards').appendChild(card);
+     }
+    
     });
 
 

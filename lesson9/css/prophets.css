@@ -66,10 +66,10 @@ a:hover {
 
 }
 .cards area img {
-    width: 92%
+    width: 64%
    
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 700px) {
     .cards {
         grid-template-columns: 1fr 1fr;
     }
