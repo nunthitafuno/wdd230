@@ -8,6 +8,7 @@ fetch(requestURL)
      const prophets = jsonObject['prophets'];
 
      for (let i = 0; i < prophets.length; i++ ) {
+        console.log(prophets[i]);
      
         let card = document.createElement('area');
         let h2 = document.createElement('h2');
