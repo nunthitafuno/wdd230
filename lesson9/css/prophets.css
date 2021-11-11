@@ -50,6 +50,7 @@ a:hover {
     box-shadow: 0 0 2px #ffffff;
     justify-items: center;
    
+   
 }
 
 .cards section {
@@ -69,12 +70,12 @@ a:hover {
     width: 72%
    
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1089px) {
     .cards {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 628px) {
     body {
         margin: 0;
     }
