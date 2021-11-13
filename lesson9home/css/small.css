@@ -114,13 +114,12 @@ footer p {
 
 }
 /* hero area */
-
-.hero-img {
-    position: relative;
+#heroArea {
+	position: relative;
 }
-.hero-img img {
-    width: 100%;
-	object-fit: contain;
+#heroArea img {
+	width: 100%;
+	height:	auto;
 }
 
 /* article area */
