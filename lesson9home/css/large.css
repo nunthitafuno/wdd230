@@ -1,33 +1,30 @@
 @media only screen and (min-width: 60em) {
-    /* typography */
     h1 {
         font-size: 40px;
     }
     h2 {
         font-size: 30px;
     }
-    h3, legend {
+    h3 {
         font-size: 25px;
     }
     h4 {
         font-size: 20px;
-    
     }
-
     .navigation a {
         font-size: 20px;
     }
-    #allTownInfo {
+    #townsInfo{
         flex-direction: row;
     }
-    #allTownInfo article {
+    #townsInfo article {
         flex-direction: column;
         align-items: center;
     }
-    #allTownInfo article:nth-child(odd) {
+    #townsInfo article:nth-child(odd) {
         flex-direction: column;
     }
-    #allTownInfo div {
+    #townsInfo div {
         width: 100%;
     }
     .townInfoImg {
