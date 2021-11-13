@@ -41,29 +41,6 @@
         font-size: 17px;
     
     }
-    .weather-summary {
-        position: absolute;
-        width: 200px;
-        top: 20px;
-        left: 20px;
-        margin-top: 0;
-        background-color: #99C5FF;
-    }
-    
-   .forecast-table {
-        margin: 0 auto;
-        margin-top: 8px;
-        width: 500px;
-       
-    }
-
-    .forecast-info span {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding-bottom: 8px;
-    
-    }
 
     #articleArea img {
         float: right;
