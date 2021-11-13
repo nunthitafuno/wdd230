@@ -109,10 +109,10 @@
   }
 
     
-    #townsInfo article {
+    #townsInfo form {
         flex-direction: row;
     }
-    #townsInfo article:nth-child(odd) {
+    #townsInfo form:nth-child(odd) {
         flex-direction: row-reverse;
     }
     #townsInfo div {

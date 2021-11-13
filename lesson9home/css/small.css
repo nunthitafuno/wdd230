@@ -296,3 +296,6 @@ footer{
 	margin: 0;
     width: 100%;
 }
+.full-width{
+	display: block;
+}

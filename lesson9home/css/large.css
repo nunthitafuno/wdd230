@@ -17,11 +17,11 @@
     #townsInfo{
         flex-direction: row;
     }
-    #townsInfo article {
+    #townsInfo form {
         flex-direction: column;
         align-items: center;
     }
-    #townsInfo article:nth-child(odd) {
+    #townsInfo form:nth-child(odd) {
         flex-direction: column;
     }
     #townsInfo div {
