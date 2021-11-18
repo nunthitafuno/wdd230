@@ -13,5 +13,17 @@
     }
     .navigation a {
         font-size: 20px;
+    
     }
+      
+    .sum-data {
+            font-size: 16px;
+            
+        }
+        .title-data {
+            width: 44%;
+            text-align: right;
+            
+
+   }
 }

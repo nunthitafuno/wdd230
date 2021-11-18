@@ -3,34 +3,36 @@ fetch(currentRequestURL)
   .then((response) => response.json())
   .then((jsObject) => {
     
-    let current = document.getElementById('d-current');
-    current.textContent = jsObject.weather[0].description;
-    let temp = jsObject.main.temp;
-    let t = document.getElementById('d-temp');
-    t.textContent = parseInt(temp);
+    let current = document.getElementById('current');
+    current.textContent = jsObject.weather[0].description;+'</span>&deg;F'
+    let temperature = jsObject.main.temp;
+    let temp = document.getElementById('temp');
+    temp.textContent = parseInt(temperature);
 
     let humidity = jsObject.main.humidity;
-    let h = document.getElementById('d-humid');
-    h.textContent = humidity;
+    let humid = document.getElementById('humid');
+    humid.textContent = humidity;
 
     let wind = jsObject.wind.speed;
-    let w = document.getElementById('d-wind-s');
-    w.textContent = wind;
+    let chill = document.getElementById('wind-speed');
+    chill.textContent = wind;
 
-    windChill();
+     windChillcalculate()
+    
 });
 
-function windChill() {
+function windChillcalculate() {
     
-    let temp = parseInt(document.querySelector('#d-temp').textContent);
-    let windSpeed = parseInt(document.querySelector('#d-wind-s').textContent)
+    let temperature = parseInt(document.querySelector('#temp').textContent);
+    let windSpeed = parseInt(document.querySelector('#wind-speed').textContent)
     let windChill = '';
-    if (temp > 50 || windSpeed < 3) {
+    if (temperature > 50 || windSpeed < 3) {
         windChill = 'N/A ';
     } else {
-        windChill = parseInt((35.74 + (0.6215 * temp)) -
+        windChill = parseInt((35.74 + (0.6215 * tempF)) -
         (35.75 * Math.pow(windSpeed, 0.16)) + 
-        (0.4275 * temp * Math.pow(windSpeed, 0.16)));
+        (0.4275 * tempF * Math.pow(windSpeed, 0.16)));
     }
-document.querySelector('#d-wind-c').textContent = windChill;
+document.querySelector('#wind-chill').textContent = windChill;
 }
+

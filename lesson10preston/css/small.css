@@ -115,23 +115,19 @@ footer p {
 }
 .ws-table {
     color:#000000 ;
-    margin: 0 auto;
+    margin: auto;
+}
+.sum-data {
+    font-size: 14px;
+
 }
 
 .title-data {
-    width: 62%;
+    width: 50%;
     text-align: center;
 	font-weight: bold;
-    
-	
-}
 
-.sum-data {
-    width: 50%;
-    padding-left: 5px;
-    font-size: 14px;
 
-   
 }
 
 .ws {
@@ -140,15 +136,16 @@ footer p {
     padding: 6px;
     text-align: center;
     margin-bottom: 4px;
-	font-size: 19px;
+	font-size: 25px;
+	
 }
 .weather-summary {
-	margin:auto;
 	margin-top: 12px;
-    padding: 10px;
+	padding: 10px;
     padding-bottom: 17px;
 	border: solid #000000;
 	background-color: #99C5FF;
+	
 
 }
 
