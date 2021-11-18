@@ -4,7 +4,7 @@ fetch(currentRequestURL)
   .then((jsObject) => {
     
     let current = document.getElementById('current');
-    current.textContent = jsObject.weather[0].description;+'</span>&deg;F'
+    current.textContent = jsObject.weather[0].description;
     let temperature = jsObject.main.temp;
     let temp = document.getElementById('temp');
     temp.textContent = parseInt(temperature);
@@ -17,11 +17,11 @@ fetch(currentRequestURL)
     let chill = document.getElementById('wind-speed');
     chill.textContent = wind;
 
-     windChillcalculate()
+    windChill()
     
 });
 
-function windChillcalculate() {
+function windChill() {
     
     let temperature = parseInt(document.querySelector('#temp').textContent);
     let windSpeed = parseInt(document.querySelector('#wind-speed').textContent)
@@ -29,10 +29,9 @@ function windChillcalculate() {
     if (temperature > 50 || windSpeed < 3) {
         windChill = 'N/A ';
     } else {
-        windChill = parseInt((35.74 + (0.6215 * tempF)) -
+        windChill = parseInt((35.74 + (0.6215 * temperature)) -
         (35.75 * Math.pow(windSpeed, 0.16)) + 
-        (0.4275 * tempF * Math.pow(windSpeed, 0.16)));
+        (0.4275 * temperature * Math.pow(windSpeed, 0.16)));
     }
-document.querySelector('#wind-chill').textContent = windChill;
+document.querySelector('#wind-chill').textContent = windChill + '°F';
 }
-
