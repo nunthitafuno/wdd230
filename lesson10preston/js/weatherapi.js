@@ -16,22 +16,22 @@ fetch(currentRequestURL)
     let wind = jsObject.wind.speed;
     let chill = document.getElementById('wind-speed');
     chill.textContent = wind;
-
-    windChill()
+     // calls the windchill function in windchill.js
+     windChillcalculate();
+    });
     
-});
-
-function windChill() {
+    
+function windChillcalculate() {
     
     let temperature = parseInt(document.querySelector('#temp').textContent);
     let windSpeed = parseInt(document.querySelector('#wind-speed').textContent)
     let windChill = '';
     if (temperature > 50 || windSpeed < 3) {
-        windChill = 'N/A ';
+        windChill =  'N/A';
     } else {
         windChill = parseInt((35.74 + (0.6215 * temperature)) -
         (35.75 * Math.pow(windSpeed, 0.16)) + 
-        (0.4275 * temperature * Math.pow(windSpeed, 0.16)));
+        (0.4275 * temperature * Math.pow(windSpeed, 0.16)))+ '°F';
     }
-document.querySelector('#wind-chill').textContent = windChill + '°F';
+document.querySelector('#wind-chill').textContent = windChill;
 }
