@@ -2,36 +2,27 @@ const currentRequestURL = 'https://api.openweathermap.org/data/2.5/weather?id=56
 fetch(currentRequestURL)
   .then((response) => response.json())
   .then((jsObject) => {
+      
+    document.getElementById('current').textContent = jsObject.weather[0].description;
+    document.getElementById('temp').textContent = jsObject.main.temp;
+    document.getElementById('humid').textContent = jsObject.main.humidity;
+    document.getElementById('wSpeed').textContent = jsObject.wind.speed;
     
-    let current = document.getElementById('current');
-    current.textContent = jsObject.weather[0].description;
-    let temperature = jsObject.main.temp;
-    let temp = document.getElementById('temp');
-    temp.textContent = parseInt(temperature);
-
-    let humidity = jsObject.main.humidity;
-    let humid = document.getElementById('humid');
-    humid.textContent = humidity;
-
-    let wind = jsObject.wind.speed;
-    let chill = document.getElementById('wind-speed');
-    chill.textContent = wind;
-     // calls the windchill function in windchill.js
-     windChillcalculate();
-    });
-    
-    
-function windChillcalculate() {
-    
-    let temperature = parseInt(document.querySelector('#temp').textContent);
-    let windSpeed = parseInt(document.querySelector('#wind-speed').textContent)
-    let windChill = '';
-    if (temperature > 50 || windSpeed < 3) {
-        windChill =  'N/A';
-    } else {
-        windChill = parseInt((35.74 + (0.6215 * temperature)) -
-        (35.75 * Math.pow(windSpeed, 0.16)) + 
-        (0.4275 * temperature * Math.pow(windSpeed, 0.16)))+ '°F';
+    let t = parseFloat(jsObject.main.temp);
+    let s = parseFloat(jsObject.wind.speed);
+    let w = "N/A";
+    if (t <= 50 && s > 3) {
+        w = wChill(t, s) + '°F';
     }
-document.querySelector('#wind-chill').textContent = windChill;
-}
+
+    document.getElementById("wChill").innerHTML = w;
+    function wChill(t, s) {
+        wind = 35.74 + (0.6215 * t) - (35.75 * Math.pow(s, .16)) + (0.4275 * t * Math.pow(s, .16));
+        return wind.toFixed(0)
+        
+    }
+
+});
+
+
+

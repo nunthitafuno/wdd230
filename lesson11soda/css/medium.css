@@ -1,0 +1,117 @@
+@media only screen and (min-width: 40em) {
+    h1 {
+        font-size: 30px;
+     }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 21px;
+    }
+    p, span {
+        font-size: 16px;
+    }
+    header img {
+        width: 129px;
+        
+    }
+    .headings h1 {
+        font-size: 40px;
+    }
+    .moto {
+        font-size: 21px;
+    }
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+        flex: 1 1 auto;
+		display: block;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
+    .navigation a {
+        font-size: 18px;
+    }
+    nav ul {
+        flex-flow: row wrap;
+    }
+    footer p {
+        font-size: 17px;
+    
+    }
+    .sum-data {
+
+        font-size: 15px;
+    }
+
+    .weather-summary {
+        position: absolute;
+        width: 260px;
+        top: 20px;
+        left: 20px;
+        margin-top: 0;
+        
+        
+       
+    }
+    
+   .forecast-table {
+        margin: 0 auto;
+        margin-top: 8px;
+        width: 500px;
+       
+    }
+
+    .forecast-info span {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 8px;
+    
+    }
+
+    #articleArea img {
+        float: right;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        width: 400px;
+    }
+   .footer{
+    background-color: #FFE770;
+    padding: 5%;
+}
+   .contactarea{
+    margin: auto;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 2.5em);
+    grid-gap: 5px;
+}
+   .preston-map{
+    grid-column: 1/6;
+    grid-row: 1/6;
+ 
+ 
+}
+.detail{
+        margin-left: 4em;
+
+}
+.socialArea {
+    grid-column: -1/-3;
+    grid-row: 5;
+    display: flex;
+    grid-gap: 15px;
+    margin-left: 4em;
+  
+
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

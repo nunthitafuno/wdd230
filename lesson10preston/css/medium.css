@@ -6,7 +6,10 @@
         font-size: 25px;
     }
     h3 {
-        font-size: 21px;
+        font-size: 28px;
+    }
+    h4 {
+        font-size: 18px ;
     }
     p, span {
         font-size: 16px;
@@ -41,7 +44,7 @@
         font-size: 17px;
     
     }
-    .sum-data {
+     .sum-data {
 
         font-size: 15px;
     }
@@ -52,10 +55,7 @@
         top: 20px;
         left: 20px;
         margin-top: 0;
-        background-color: #99C5FF;
         
-        
-       
     }
     
    .forecast-table {

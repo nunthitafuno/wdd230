@@ -6,24 +6,20 @@
         font-size: 30px;
     }
     h3 {
-        font-size: 25px;
+        font-size: 28px;
     }
     h4 {
         font-size: 20px;
     }
     .navigation a {
         font-size: 20px;
-    
-    }
-      
-    .sum-data {
-            font-size: 16px;
-            
-        }
-        .title-data {
+    }         
+    .title-data {
             width: 44%;
             text-align: right;
-            
-
+   
+    }      
+    .sum-data {
+        font-size: 16px;
    }
 }
