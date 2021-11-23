@@ -19,7 +19,7 @@ h2 {
 	color: #000000;
 }
 h3 {
-	font-size: 18px;
+	font-size: 14px;
 	color:#000000;
 }
 h3, legend {
@@ -131,7 +131,7 @@ footer p {
 	overflow: auto;
 	
 }
-#articleArea h3 {
+#articleArea h2 {
 	margin-top: 10px;
 }
 #articleArea img {
