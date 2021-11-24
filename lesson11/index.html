@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -33,28 +33,28 @@
     </nav>
     <main>
         <h2>Idaho Towns Page Information</h2>
-        <div id="heroArea">
-            <img src="images/homelarge.webp" alt="image of weather change in idaho" sizes="100vw"
-            srcset="images/homelargesmall.webp 400w,
-                    images/homelargemedium.webp 800w,
-                    images/homelarge.webp 1280w">
-        </div>
+        <section id="heroArea">
+            <picture>
+                <source media="(min-width: 780px)" srcset="./images/homelarge.webp">
+                <source media="(min-width: 620px)" srcset="./images/homemedium.webp">
+                <img src="./images/homesmall.webp" alt="small viewport town">
+            </picture>
         <div id="townsInfo">
             <form>
                 <figure class="townInfoImg">
-                    <img src="images/homedatapreston.webp" alt="park road in preston" loading="lazy" >
+                    <img src="images/homedatapreston.webp" alt="park road in preston" width="380" height="220" loading="lazy" >
                 </figure>
                 <div class="datatownPreston"></div>
             </form>
             <form>
                 <figure class="townInfoImg">
-                    <img src="images/homedatasodaspring.webp"alt="park road in soda springs"  loading="lazy">
+                    <img src="images/homedatasodaspring.webp"alt="park road in soda springs" width="380" height="220" loading="lazy">
                 </figure>
                 <div class="datatownSodaSprings"></div>
             </form>
             <form>
                 <figure class="townInfoImg">
-                    <img src="images/fishhaven.webp" alt="park road in fish haven" loading="lazy">
+                    <img src="images/fishhaven.webp" alt="park road in fish haven" width="380" height="220"loading="lazy">
                 </figure>
                 <div class="datatownFishhaven"></div>
             </form>
@@ -90,6 +90,6 @@
 
     <script src="js/town.js"></script>
     <script src="js/all.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    
 </body>
 </html>
