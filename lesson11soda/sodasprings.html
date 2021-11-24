@@ -34,11 +34,13 @@
      <main>
      <h2>Soda Springs</h2>
      <section class="hero-img">
-        <img src="images/sodabanner.webp" alt="image of the town of Soda Springs Idaho" sizes="100vw"
-        srcset="images/sodabanner.webp 400w,
-                images/sodabanner.webp 800w,
-                images/sodabanner.webp 1280w">
-</div>
+        <section class="hero-img">
+            <picture>
+                <source media="(min-width: 780px)" srcset="./images/herosodalarge.webp">
+                <source media="(min-width: 620px)" srcset="./images/herosodamedium.webp">
+                <img src="./images/herosodasmall.webp" alt="small viewport town">
+            </picture>
+
            <div class="weather-summary">
             <h3 class="ws">Weather Summary</h3>
             <table class="ws-table">

@@ -34,11 +34,11 @@
      <main>
      <h2>Fish Haven </h2>
      <section class="hero-img">
-        <img src="images/herofish.webp" alt="image of the town of Soda Springs Idaho" sizes="100vw"
-        srcset="images/herofish.webp 400w,
-                images/herofish.webp 800w,
-                images/herofish.webp 1280w">
-     </div>
+        <picture>
+            <source media="(min-width: 780px)" srcset="./images/herofishlarge.webp">
+            <source media="(min-width: 620px)" srcset="./images/herofishmedium.webp">
+            <img src="./images/herofishlarge.webp" alt="small viewport town">
+        </picture>
            <div class="weather-summary">
             <h3 class="ws">Weather Summary</h3>
             <table class="ws-table">
