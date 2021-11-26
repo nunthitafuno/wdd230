@@ -7,14 +7,14 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
 
     const fishfilter = towns.filter(x => x.name == "Fish Haven");
-    let fishEvents = fishfilter[0].events;
+    let eventsFish = fishfilter[0].events;
     let ul = document.createElement('ul'); 
 
-    fishEvents.forEach(event => {
-    let listItem = document.createElement('li');
-    listItem.innerHTML = event;
-    ul.append(listItem);
+    eventsFish.forEach(event => {
+    let list = document.createElement('li');
+    list.innerHTML = event;
+    ul.appendChild(list);
   }); 
 
-  document.getElementById("eventFish").appendChild(ul);
+  document.getElementById("fishEvent").appendChild(ul);
 });

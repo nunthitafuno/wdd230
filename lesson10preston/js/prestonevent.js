@@ -8,14 +8,14 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
 
     const prestonfilter = towns.filter(x => x.name == "Preston");
-    let prestonEvents = prestonfilter[0].events;
+    let eventsPreston = prestonfilter[0].events;
     let ul = document.createElement('ul'); 
 
-    prestonEvents.forEach(event => {
-    let listItem = document.createElement('li');
-    listItem.innerHTML = event;
-    ul.append(listItem);
+    eventsPreston.forEach(eventlist => {
+    let list = document.createElement('li');
+    list.innerHTML = eventlist;
+    ul.appendChild(list);
   }); 
 
-  document.getElementById("eventpreston").appendChild(ul);
+  document.getElementById("prestonEvents").appendChild(ul);
 });

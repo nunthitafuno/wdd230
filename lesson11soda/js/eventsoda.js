@@ -8,14 +8,14 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
 
     const sodafilter = towns.filter(x => x.name == "Soda Springs");
-    let sodaEvents = sodafilter[0].events;
+    let sodaEvent = sodafilter[0].events;
     let ul = document.createElement('ul'); 
 
-    sodaEvents.forEach(event => {
-    let listItem = document.createElement('li');
-    listItem.innerHTML = event;
-    ul.append(listItem);
+    sodaEvent.forEach(eventlist => {
+    let list = document.createElement('li');
+    list.innerHTML = eventlist;
+    ul.appendChild(list);
   }); 
 
-  document.getElementById("eventSoda").appendChild(ul);
+  document.getElementById("sodaEvent").appendChild(ul);
 });
