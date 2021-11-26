@@ -145,13 +145,6 @@ footer p {
 	border: solid #000000;
 	background-color: #99C5FF;
 }
-#forcastArea {
-	border: 2px solid #000000;
-	background: #99C5FF;
-	margin: 15px auto;
-	padding: 15px;
-	overflow: auto;
-}
 
 #forcastFive {
 	display: grid;
