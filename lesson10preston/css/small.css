@@ -144,8 +144,13 @@ footer p {
     padding-bottom: 17px;
 	border: solid #000000;
 	background-color: #99C5FF;
-	
-
+}
+#forcastArea {
+	border: 2px solid #000000;
+	background: #99C5FF;
+	margin: 15px auto;
+	padding: 15px;
+	overflow: auto;
 }
 
 #forcastFive {
@@ -159,6 +164,7 @@ footer p {
 	flex-direction: column;
 	align-items: center;
 	border: 1px solid #000000;
+	background-color: #b8d3f5;
 }
 .forcastDay {
 	margin: 0;
@@ -169,6 +175,7 @@ footer p {
 	padding-top: 10px; 
 	padding-bottom: 10px; 
 	font-weight: bold;
+	
 }
 .forcastCol img {
 	padding-top: 10px;
