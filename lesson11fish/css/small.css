@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 body {
     font-family: 'Quicksand', Helvetica, sans-serif;
 }
@@ -6,9 +6,7 @@ main {
 	max-width: 80em;
 	margin: 0 auto;
 	padding: 10px;
-}
-header, nav, footer, #prestonPancakes {
-	margin: 0 auto;
+
 }
 /* typography */
 h1 {
@@ -235,7 +233,7 @@ footer{
 	max-width: 400px;
 	align-content: center;
 	border: 2px solid #000000;
-	background: #f2be54;
+	background: #FFE770;
 	margin: 15px auto;
 	padding: 15px;
 	overflow: auto;

@@ -14,8 +14,3 @@ var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "S
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 document.getElementById("outcome").innerHTML = days[currentDate.getDay()] + ", " + currentDate.getDate() + " " + months[currentDate.getMonth()] + " " + currentDate.getFullYear();
-
-//preston page - adds pancake reminder on fridays
-if (currentDate.getDay() == 5) {
-    document.getElementById("prestonPancakes").style.display = "block";
-}
