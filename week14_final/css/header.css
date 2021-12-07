@@ -1,0 +1,31 @@
+:root {
+    --h-text: 'Noto', serif;
+    --t-text: 'Quicksand', sans-serif;
+    --accent-o: #c2bdb7;
+    --accent-b: #0c0900;
+    --accent-b-h:#5e512e;
+    --accent-r: #020c35;
+    --accent-g: #b6a168;
+    --accent-w: #fdfbf5;
+}
+
+header {
+    height: 172px;
+    width: 100%;
+    background-color:  #0c0900;
+
+}
+
+header div {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+header div a img {
+    padding-top: -37px;
+    width: 100%;
+    height: auto;
+    
+}
+
