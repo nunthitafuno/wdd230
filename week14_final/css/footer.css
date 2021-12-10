@@ -11,7 +11,7 @@
 
 footer {
     min-height: 70px;
-    background-color: white;
+    background-color: var(--accent-b);
     padding: 14px;
     min-height: 4em;
     font-size: 0.85em;

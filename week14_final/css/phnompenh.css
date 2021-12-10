@@ -1,12 +1,10 @@
 :root {
     --h-text: 'Merriweather', serif;
     --t-text: 'Source Sans Pro', sans-serif;
-    --accent-o: #F09720;
-    --accent-b: #25CAD2;
-    --accent-b-h: #1a8c92;
-    --accent-r: #ED1B33;
-    --accent-g: #343A40;
-    --accent-g-l: #788491;
+    --accent-o: #c2bdb7;
+    --accent-b: #0a0a09;
+    --accent-b-h:#5e512e;
+    --accent-g:  #978154;
     --accent-w: #fff;
 }
 
@@ -18,6 +16,7 @@
 .stat-data {
     max-width: 700px;
     margin: 48px auto;
+    border: 1px solid black;
 }
 
 .stat-data p {
@@ -40,15 +39,22 @@
     flex: 1 1 auto;
     height: 8px;
     margin: 8px;
-    border-bottom: 0.5px dotted var(--accent-g);
+    border-bottom: 0.5px dotted var(--accent-b);
 }
 
 .stat-data-output .content .value {
     width: 75px;
 }
 
-.slideshow-sec {
-    display: none;
+.pp-banner {
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+.pp-banner img{
+   width: 100%;
+   object-fit: contain;
+
 }
 
 .events-sec {
@@ -60,9 +66,11 @@
 }
 
 .events {
-    width: 100%;
-    padding: 16px;
-    color: var(--accent-g);
+    max-width: 100%;
+    border: 1px solid black;
+    
+    
+
 }
 
 .events h2 {
@@ -84,42 +92,27 @@
     letter-spacing: 0.15em;
     font-size: 18px;
     font-weight: 600;
-    color: var(--accent-g);
+    color: var(--accent-b);
     margin-bottom: 4px;
-}
 
-.event-list div .age {
-    display: inline-block;
-    font-size: 12px;
-    letter-spacing: 0;
-    text-shadow: none;
-    font-size: 12px;
-    font-weight: 700;
-    padding-left: 12px;
-    margin-left: 10px;
-    color: black;
-    padding-right: 12px;
-    text-align: center;
-    border: 1px solid var(--accent-b-h);
-    border-radius: 10px;
 }
 
 .event-list div .location {
-    color: var(--accent-g)
+    color: var(--accent-b)
 }
 
-.mobile-img {
+.pp-banner {
     display: block;
     width: 100%;
-    margin: 0 auto;
+    
 }
+.pp-banner img {
+    width: 100%;
+    
 
-.mobile-img img {
-    max-width: 100%;
 }
-
 .history {
-    max-width: 800px;
+    max-width: 802px;
     background-color: var(--accent-g);
     color: var(--accent-w);
     padding: 16px;
@@ -160,39 +153,12 @@
         display: none;
     }
 
-    .slideshow-sec {
-        display: block;
-    }
-
-    [data-component="slideshow-1"] .slide {
-        display: none;
-      text-align: center;
-    }
     
-    [data-component="slideshow-1"] .slide.active {
-        display: block;
-    }
-    
-    [data-component="slideshow-2"] .slide {
-        display: none;
-      text-align: center;
-    }
-    
-    [data-component="slideshow-2"] .slide.active {
-        display: block;
-    }
-    
-    [data-component="slideshow-3"] .slide {
-        display: none;
-      text-align: center;
-    }
-    
-    [data-component="slideshow-3"] .slide.active {
-        display: block;
-    }
-
-    .slide img {
+    .pp-banner {
         max-width: 100%;
+    }
+    .pp-banner{
+        display: block;
     }
 
     .history {
