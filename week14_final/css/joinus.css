@@ -9,7 +9,7 @@
 }
 
 .banner {
-    background-color: #5e512e;
+    background-color: #978154;
 	color: #000000 ;
 	display: flex;
 	align-items: center;
@@ -17,7 +17,7 @@
 	text-align: center;
     padding: 12px;
     margin-bottom: 12px;
-    filter: drop-shadow(0px 0px 1px #5e512eb7);
+    filter: drop-shadow(0px 0px 1px #978154);
 }
 
 .banner:hover {

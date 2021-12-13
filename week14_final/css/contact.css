@@ -7,6 +7,9 @@
     --accent-r: #020d3f;
     --accent-g:  #b6a168;
     --accent-w: #fff;
+
+    
+
 }
 
 input, textarea {
@@ -14,6 +17,14 @@ input, textarea {
     max-width: 500px;
     font-size: 14px;
     font-family: var(--h-text);
+}
+
+.Get-in-touch{
+    font-family: var(--t-text);
+    display: block;
+    background-color: #5e512e;
+    border: 1px solid black;
+
 }
 
 .contact-us-form {
@@ -36,7 +47,7 @@ input, textarea {
     margin-bottom: 15px;
     font-family: var(--t-text);
     border: none;
-    border-bottom: 1px solid var(--accent-g);
+    border-bottom: 1px solid var(--accent-b-h);
 }
 
 .contact-us-form .input-section label {
@@ -47,20 +58,21 @@ input, textarea {
     padding: 6px;
     margin-bottom: 10px;
     height: 120px;
+    font-family: var(--h-text);
 }
 
 .contact-us-form .input-section .submit {
     font-family: var(--t-text);
     font-size: 16px;
     font-weight: 600;
-    padding: 6px 8px 6px 8px;
+    padding: 4px 7px 4px 7px;
     background-color: var(--accent-b);
     color: var(--accent-g);
     border: 0;
 }
 
 .contact-us-form .input-section .submit:hover {
-    background-color: var(--accent-b-h);
+    background-color: #fff;
     color: var(--accent-w);
 }
 

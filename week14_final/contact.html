@@ -22,7 +22,17 @@
 
     <body>
         <header></header>
-        <nav></nav>
+            <nav>
+                <ul class="navigation">
+                <li><a class="button" href="#">☰Menu</a></li>
+                <li class="nav-li"><a href="../week14_final/index.html">Home</a></li>
+                <li class="nav-li"><a href="./phnompenh.html">Phnom Penh</a></li>
+                <li class="nav-li"><a href="directory.html">Directory</a></li>
+                <li class="nav-li"><a href="./joinus.html">Join Us</a></li>
+                <li class="active"><a href="./contact.html">Contact</a></li>
+                </ul>
+    
+        </nav>
 
         <main>
             <h1 class="page-title">Contact</h1>
@@ -30,15 +40,15 @@
             <section class="contact-us-form">
 
                 <form action="thanksforcontactus.html">
-                    <p>* All fields are required</p>
+                    <h2 class="Get-in-touch">Get in touch</h2>
                     <div class="input-section">
                         <label for="full-name">Full Name</label>
-                        <input pattern="(.*[A-Za-z]){5}" type="text" name="fullName" id="full-name" placeholder="first & last" required>
+                        <input type="text" name="fullName" id="full-name" placeholder="full name" required>
                     </div>
 
                     <div class="input-section">
                         <label for="phone-number">Phone Number</label>
-                        <input type="tel"  name="phoneNumber" id="phone-number" placeholder="000-000-0000" required>
+                        <input type="tel"  name="phoneNumber" id="phone-number" placeholder="85512550516" required>
                     </div>
 
                     <div class="input-section">
@@ -46,24 +56,9 @@
                         <input type="email" name="email" id="email" placeholder="email@address.com" minlength="3" maxlength="64" required>
                     </div>
 
-                    <div class="input-section">
-                        <label for="inquiry">Inquiry Type</label>
-                        <input type="text" name="inquiry" id="inquiry" list="inquiry-type" onfocus="this.value=''" placeholder="select one ...">
-                        <datalist id="inquiry-type">
-                            <option value="Arts Council"></option>
-                            <option value="Events"></option>
-                            <option value="Farmers Market"></option>
-                            <option value="Feedback (general)"></option>
-                            <option value="Membership"></option>
-                            <option value="Site Issue"></option>
-                            <option value="Treasurer"></option>
-                            <option value="Other"></option>
-                        </datalist>
-                    </div>
-
-                    <div class="input-section">
+                   <div class="input-section">
                         <label for="comments">Additional Information:</label><br>
-                        <textarea name="comments" id="comments"></textarea>
+                        <textarea  name="comment" id="comments" placeholder="Insert additional information or comments here"></textarea>
                     </div>
                     
                     <div class="input-section">
@@ -144,11 +139,11 @@
 
         <footer></footer> 
 
-        <script src="./js/navigation.js"></script>
+        <script src="./js/nav.js"></script>
         <script src="./js/header.js"></script>
         <script src="./js/footer.js"></script>
         <script src="./js/script.js"></script>
-        <script src="./js/current-year.js"></script>
-        <script src="./js/last-updated.js" defer></script>
+        <script src="./js/currentyear.js"></script>
+        <script src="./js/lastupdate.js"></script>
     </body>
 </html>

@@ -72,20 +72,20 @@ input, textarea {
     margin-bottom: 2px;
 }
 
-.membership-levels {
+.membership-type {
     width: 100%;
     background-color: var(--accent-g);
-    color: var(--accent-w);
+    color: var(--accent-b);
     padding: 16px;
 }
 
-.membership-levels div {
+.membership-type div {
     width: 100%;
     font-family: var(--t-text);
     letter-spacing: 0.1em;
 }
 
-.fa-crown {
+.far fa-gem {
     font-size: 40px;
     margin: 6px;
 }
@@ -99,7 +99,7 @@ input, textarea {
     padding-bottom: 8px;
 }
 
-.n-profit {
+.Ordinary-member {
     color: var(--accent-b);
     font-size: 30px;
     border-top: 2px solid var(--accent-b);
@@ -107,29 +107,29 @@ input, textarea {
     text-align: center;
 }
 
-.n-profit-arrow {
+.Ordinary-member-caret-right{
     color: var(--accent-b);
     font-size: 20px;
 }
 
-.bronze {
-    color: #CD7F32;
+.seas-member {
+    color: #5e512e;
     font-size: 30px;
-    border-top: 2px solid #CD7F32;
-    border-bottom: 2px solid #CD7F32;
+    border-top: 2px solid #5e512e;
+    border-bottom: 2px solid #5e512e;
     text-align: center;
 }
 
-.bronze-arrow {
-    color: #CD7F32;
+.seas-member-caret-right {
+    color: #5e512e;
     font-size: 20px;
 }
 
 .silver {
-    color: silver;
+    color: rgb(201, 196, 196);
     font-size: 30px;
-    border-top: 2px solid silver;
-    border-bottom: 2px solid silver;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
     text-align: center;
 }
 
@@ -139,15 +139,15 @@ input, textarea {
 }
 
 .gold {
-    color: gold;
+    color: rgb(211, 181, 13);
     font-size: 30px;
-    border-top: 2px solid gold;
-    border-bottom: 2px solid gold;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
     text-align: center;
 }
 
 .gold-arrow {
-    color: gold;
+    color: goldenrod;
     font-size: 20px;
 }
 
