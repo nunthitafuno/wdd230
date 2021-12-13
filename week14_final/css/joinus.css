@@ -9,14 +9,15 @@
 }
 
 .banner {
-    background-color: #978154;
-	color: #000000 ;
+    background-color: #0a0a09;
+	color: #fff ;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
     padding: 12px;
     margin-bottom: 12px;
+    margin-top: 12px;
     filter: drop-shadow(0px 0px 1px #978154);
 }
 
@@ -26,7 +27,7 @@
 
 .banner a {
     text-decoration: none;
-    color: var(--accent-b);
+    color: var(--accent-w);
   
 }
 
@@ -36,9 +37,8 @@
 
 /* ----- desktop view (50 em) -------------------------- */
 @media only screen and (min-width: 50em) {
-
     .banner {
-        border-radius: 80px 0 80px 0;
+        border-radius: 40px 0 40px 0;
     }
 
 }
