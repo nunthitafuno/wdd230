@@ -4,14 +4,14 @@ const ex = 'exclude=hourly,minutely';
 const requestURL = `https://api.openweathermap.org/data/2.5/onecall?${latLon}&${ex}&units=imperial&appid=${apiKey}`;
 
 
-// adding a fake alert section since I never saw any actual alerts come through to test with
+// adding a fake alert section because I can't find any actual alerts come through to test with
 const alerts = [
     {
-      "sender_name": "NWS Tulsa",
+      "sender_name": "Think Hazard",
       "event": "Heat Advisory",
-      "start": 1470003907836,
-      "end": 1470503007836,
-      "description": "Heat index values of 105 to 109 degrees expected in the Phnom Penh, PP area."
+      "start": "12/25/2021",
+      "end": "12/27/2021",
+      "description": "Heat index  is expected to be greater than 105 degrees in Phnom Penh, PP area."
     }
 ];
 fetch(requestURL)
@@ -112,6 +112,7 @@ fetch(requestURL)
             weatherOutput.insertAdjacentHTML('beforeend', weatherInfo);
         }
         
+      
         // output alerts
 
 });

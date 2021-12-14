@@ -69,6 +69,7 @@ input, textarea {
 .join-us-form form h3 {
     text-align: left;
     margin-bottom: 2px;
+    
 }
 
 .membership-type {
@@ -132,7 +133,7 @@ input, textarea {
     text-align: center;
 }
 
-.silver-arrow {
+.silver-caret-right {
     color: silver;
     font-size: 20px;
 }
@@ -145,7 +146,7 @@ input, textarea {
     text-align: center;
 }
 
-.gold-arrow {
+.gold-caret-right {
     color: goldenrod;
     font-size: 20px;
 }
