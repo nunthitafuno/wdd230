@@ -1,15 +1,13 @@
 :root {
     --h-text: 'Noto', serif;
     --t-text: 'Quicksand', sans-serif;
-    --accent-o: #c2bdb7;
-    --accent-b: #070706;
+    --accent-b: #0e0d0c;
     --accent-b-h:#5e512e;
-    
     --accent-g:  #b6a168;
     --accent-w: #f1f0ec;
 }
 
-.purpose {
+.mission {
     padding-top: 20px;
     padding-bottom: 20px;
     max-width: 100%;
@@ -19,7 +17,7 @@
     color: var(--accent-b);
 }
 
-.purpose h2 {
+.mission h2 {
     width: 100%;
     padding: 10px;
     margin-top: 0;
@@ -28,21 +26,21 @@
     color: --accent-b;
 }
 
-.purpose p {
+.mission p {
     width: 100%;
     padding: 16px;
     font-size: 20px;
     margin: 0;
 }
 
-.purpose .info {
+.mission .info {
     display: flex;
     flex-direction: column;
 }
 
 .featured-members {
     width: 100%;
-    background-color: #f1f0ec;
+    background-color:  #b6a168;
     padding: 16px;
 }
 
@@ -80,7 +78,7 @@
     content:"\A";
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 15px solid var(--accent-r);
+    border-left: 15px solid var(--accent-b);
     position: absolute;
     left: 0;
     filter: drop-shadow(0px 0px 0.5px black);
@@ -90,22 +88,22 @@
     margin-bottom: 10px;
 }
 
-.member .member-text .button a {
+.member .member-text .bullet a {
     text-decoration: none;
     color: var(--accent-w);
     font-family: var(--t-text);
 }
 
-.member .member-text .button a div {
+.member .member-text .bullet a div {
     width: 120px;
     text-align: center;
     margin-top: 18px;
     padding: 8px;
-    background-color: var(--accent-r);
+    background-color: var(--accent-b);
     filter: drop-shadow(0px 0px 1px black);
 }
 
-.member .member-text .button a div:hover {
+.member .member-text .bullet a div:hover {
     filter: drop-shadow(0px 0px 3px black);
 }
 
@@ -127,7 +125,7 @@
 .events {
     width: 100%;
     padding: 16px;
-    background-color:#b6a168;
+    background-color:  #b6a168;
     color: var(--accent-w);
 }
 
@@ -148,7 +146,7 @@
 }
 
 .event-list div .e-name {
-    text-shadow: 0px 0px 5px black;
+    
     letter-spacing: 0.29em;
     font-size: 16px;
     color: var(--accent-b);
@@ -157,13 +155,13 @@
 }
 
 .event-list div .location {
-    color: rgba(238, 230, 230, 0.5);
+    color: rgba(7, 6, 6, 0.5);
 }
 
 .weather {
     width: 100%;
     padding: 14px;
-    background-color: var(--accent-g-l);
+    background-color: var(--accent-w);
 }
 
 .title-current {

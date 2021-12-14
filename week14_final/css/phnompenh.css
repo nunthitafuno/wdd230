@@ -1,7 +1,6 @@
 :root {
     --h-text: 'Merriweather', serif;
     --t-text: 'Source Sans Pro', sans-serif;
-    --accent-o: #c2bdb7;
     --accent-b: #0a0a09;
     --accent-b-h:#5e512e;
     --accent-g:  #978154;
@@ -51,12 +50,13 @@
     top: 10px;
     right: 10px;
 }
-.pp-banner img{
-   width: 100%;
-   object-fit: contain;
+
+.pp-banner img {
+    width: 600px;
+    height: 300px;
+    object-fit: contain;
 
 }
-
 .events-sec {
     width: 100%;
     margin: 16px auto;
@@ -65,10 +65,10 @@
     flex-direction: column;
 }
 
+
 .events {
     max-width: 100%;
-    border: 1px solid black;
-    
+    border: 1px solid black; 
     
 
 }

@@ -1,10 +1,8 @@
 :root {
     --h-text: 'Noto', serif;
     --t-text: 'Quicksand', sans-serif;
-    --accent-o: #c2bdb7;
     --accent-b: #0e0d0c;
     --accent-b-h:#5e512e;
-    --accent-r: #020d3f;
     --accent-g:  #b6a168;
     --accent-w: #fff;
 
@@ -16,7 +14,7 @@ input, textarea {
     width: 100%;
     max-width: 500px;
     font-size: 14px;
-    font-family: var(--h-text);
+    font-family: var(--t-text);
 }
 
 .Get-in-touch{
@@ -58,7 +56,7 @@ input, textarea {
     padding: 6px;
     margin-bottom: 10px;
     height: 120px;
-    font-family: var(--h-text);
+  
 }
 
 .contact-us-form .input-section .submit {
@@ -88,7 +86,7 @@ input, textarea {
 .board-of-directors {
     width: 100%;
     background-color: var(--accent-g);
-    color: var(--accent-w);
+    color: var(--accent-b);
     padding: 30px;
     padding-bottom: 60px;
 }
@@ -101,10 +99,10 @@ input, textarea {
     padding-top: 8px;
 }
 
-.fa-star {
+.fa-play-circle {
     padding-right: 5px;
     font-size: 16px;
-    color: var(--accent-o);
+    color: black;
 }
 
 .thank-you {
@@ -131,17 +129,17 @@ input, textarea {
     }
 
     .contact-us-form form {
-        width: 50%;
+        width: 52%;
     }
 
     .board-of-directors {
         padding-top: 60px;
-        border-radius: 30px;
-        width: 50%;
+        border-radius: 12px;
+        width: 52%;
     }
 
     .board-of-directors div {
-        padding-top: 16px;
+        padding-top: 17px;
     }
 
 }

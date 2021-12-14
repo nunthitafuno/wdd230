@@ -1,12 +1,14 @@
 :root {
     --h-text: 'Noto', serif;
     --t-text: 'Quicksand', sans-serif;
-    --accent-o: #c2bdb7;
     --accent-b: #0c0900;
     --accent-b-h:#5e512e;
-    --accent-r: #020c35;
     --accent-g: #b6a168;
-    --accent-w: #fdfbf5;
+    --accent-w:#ffff;
+}
+.hero-img{
+    margin-top: 12px;
+    margin-bottom: 9px;
 }
 
 .toggle-biz {
@@ -53,22 +55,22 @@
 
 .button a {
     text-decoration: none;
-    color: var(--accent-g);
+    color: var(--accent-w);
     font-weight: 700;
     font-family: var(--t-text);
 }
 
 .button a div {
     width: 160px;
-    border: 1px solid var(--accent-g);
+    border: 1px solid var(--accent-b);
     text-align: center;
     margin: 15px auto 0 auto;
     padding: 4px;
-    background-color: var(--accent-o);
+    background-color: #0c0900;
 }
 
 .button a div:hover {
-    border: 1px solid var(--accent-w);
+    border: 1px solid var(--accent-b);
     color: var(--accent-w);
 }
 
@@ -81,15 +83,7 @@
     }
 
     .toggle-biz .active {
-        background-color: var(--accent-b);
-    }
-    
-    .round-left {
-        border-radius: 12px 0 0 12px;
-    }
-    
-    .round-right {
-        border-radius: 0 12px 12px 0;
+        background-color: #b6a168;
     }
     
     .toggle-biz {
@@ -105,14 +99,13 @@
         cursor: pointer;
         width: 80px;
         padding: 6px;
-        background-color: lightgray;
+        background-color: #5e512e;
     }
     
     .b-button:hover {
-        background-color: var(--accent-b)
+        background-color: var(--accent-w)
     }
 
-    /* list view */
 
     .card-output-list {
         display: flex;
@@ -155,8 +148,8 @@
 
     .biz-data-list .biz-info div .name {
         font-size: 22px;
-        padding-bottom: 6px;
-        padding-top: 6px;
+        padding-bottom: 7px;
+        padding-top: 7px;
     }
 }
 
