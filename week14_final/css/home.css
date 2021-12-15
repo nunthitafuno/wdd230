@@ -1,10 +1,7 @@
 :root {
     --h-text: 'Noto', serif;
     --t-text: 'Quicksand', sans-serif;
-    --accent-b: #0a0a09;
-    --accent-b-h:#5e512eb7;
-    --accent-g:  #978154;
-    --accent-w: #fff;
+   
 }
 
 .mission {
@@ -13,8 +10,10 @@
     max-width: 100%;
     margin: 0 auto;
     margin-top: 15px;
-    background-color: var(--accent-w);
+    background-color: #fff;
     color: #0e0d0c;
+    border: 1px solid black;
+
 }
 
 .mission h2 {
@@ -22,7 +21,6 @@
     padding: 10px;
     margin-top: 0;
     margin-bottom: 0;
-    text-shadow: 0px 0px 5px white;
     color:  #0a0a09;
 }
 
@@ -37,7 +35,10 @@
     display: flex;
     flex-direction: column;
 }
+.hero-img{
+    padding-top: 12px
 
+}
 .featured-members {
     width: 100%;
     background-color:  #b6a168;
@@ -125,8 +126,8 @@
 .events {
     width: 100%;
     padding: 16px;
-    background-color:  #b6a168;
-    color: var(--accent-w);
+    background-color: #b6a168;;
+    color: #ffff;
 }
 
 .events h2 {
@@ -138,6 +139,8 @@
     font-family: var(--t-text);
     max-width: 397px;
     margin: 0 auto;
+    
+    
 }
 
 .event-list div {
@@ -149,19 +152,19 @@
     
     letter-spacing: 0.29em;
     font-size: 16px;
-    color: var(--accent-b);
+    color: #0e0d0c;
     margin-bottom: 4px;
 
 }
 
 .event-list div .location {
-    color: rgba(7, 6, 6, 0.5);
+    color: #0e0d0c;
 }
 
 .weather {
     width: 100%;
     padding: 14px;
-    background-color: var(--accent-w);
+    background-color: #fff;
 }
 
 .title-current {
@@ -256,7 +259,7 @@
     font-weight: 700;
     letter-spacing: 0.1em;
     padding: 8px;
-    color: var(--accent-w);
+    color: #ffff;
     background-color: rgb(78, 65, 8);
 }
 
@@ -273,17 +276,17 @@
 /* ----- tablet view (36 em) -------------------------- */
 @media only screen and (min-width: 36em) { 
 
-    .purpose {
+    .mission {
         padding-left: 18px;
         padding-right: 18px;
     }
 
-    .purpose .info {
+    .mission .info {
         display: flex;
         flex-direction: row;
     }
 
-    .purpose p {
+    .mission p {
         width: 50%;
         padding: 12px;
     }
@@ -319,7 +322,7 @@
 /* ----- desktop view (50 em) -------------------------- */
 @media only screen and (min-width: 50em) { 
 
-    .purpose {
+    .mission {
         border-radius: 20px;
     }
 

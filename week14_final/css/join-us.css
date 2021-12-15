@@ -1,10 +1,6 @@
 :root {
     --h-text: 'Noto', serif;
     --t-text: 'Quicksand', sans-serif;
-    --accent-b: #0a0a09;
-    --accent-b-h:#5e512eb7;
-    --accent-g:  #978154;
-    --accent-w: #fff;
 }
 
 input, textarea {
@@ -32,38 +28,38 @@ input, textarea {
     max-width: 530px;
 }
 
-.join-us-form .input-section input {
+.join-us-form .input-zone input {
     height: 40px;
     padding: 8px;
     margin-bottom: 15px;
     font-family: var(--t-text);
     border: none;
-    border-bottom: 1px solid var(--accent-g);
+    border-bottom: 1px solid #5e512eb7;
 }
 
-.join-us-form .input-section label {
+.join-us-form .input-zone label {
     font-family: var(--h-text);
 }
 
-.join-us-form .input-section textarea {
+.join-us-form .input-zone textarea {
     padding: 6px;
     margin-bottom: 10px;
     height: 120px;
 }
 
-.join-us-form .input-section .submit {
+.join-us-form .input-zone .submit {
     font-family: var(--t-text);
     font-size: 16px;
     font-weight: 600;
     padding: 6px 8px 6px 8px;
-    background-color: var(--accent-b);
-    color: var(--accent-g);
+    background-color: #0a0a09;
+    color: #978154;
     border: 0;
 }
 
-.join-us-form .input-section .submit:hover {
-    background-color: var(--accent-b-h);
-    color: var(--accent-w);
+.join-us-form .input-zone .submit:hover {
+    background-color:#5e512eb7;
+    color: #ffff;
 }
 
 .join-us-form form h3 {
@@ -74,8 +70,8 @@ input, textarea {
 
 .membership-type {
     width: 100%;
-    background-color: var(--accent-g);
-    color: var(--accent-b);
+    background-color: #978154;
+    color: #0a0a09;
     padding: 16px;
 }
 
@@ -99,42 +95,42 @@ input, textarea {
     padding-bottom: 8px;
 }
 
-.Ordinary-member {
-    color: var(--accent-b);
+.ordinary-member {
+    color: #0a0a09;
     font-size: 30px;
-    border-top: 2px solid var(--accent-b);
-    border-bottom: 2px solid var(--accent-b);
+    border-top: 2px solid #0a0a09;
+    border-bottom: 2px solid #0a0a09;
     text-align: center;
 }
 
-.Ordinary-member-caret-right{
-    color: var(--accent-b);
+.ordinary-member-caret-right{
+    color: #0a0a09;
     font-size: 20px;
 }
 
 .seas-member {
-    color: #5e512e;
+    color: #040f49;
     font-size: 30px;
-    border-top: 2px solid #5e512e;
-    border-bottom: 2px solid #5e512e;
+    border-top: 2px solid #040f49;
+    border-bottom: 2px solid #040f49;
     text-align: center;
 }
 
 .seas-member-caret-right {
-    color: #5e512e;
+    color: #040f49;
     font-size: 20px;
 }
 
 .silver {
-    color: rgb(201, 196, 196);
+    color: #dcd9d6;
     font-size: 30px;
-    border-top: 2px solid gray;
-    border-bottom: 2px solid gray;
+    border-top: 2px solid #dcd9d6;
+    border-bottom: 2px solid #dcd9d6;
     text-align: center;
 }
 
 .silver-caret-right {
-    color: silver;
+    color: #dcd9d6;
     font-size: 20px;
 }
 
@@ -158,7 +154,7 @@ input, textarea {
 }
 
 .thank-you h2 {
-    color: var(--accent-b-h);
+    color:#0a0a09;
 }
 
 .thank-you p {
@@ -168,7 +164,7 @@ input, textarea {
 
 #join-us-intro {
     font-family: var(--t-text);
-    color: var(--accent-b-h);
+    color: #0a0a09;
     margin: 16px;
 }
 

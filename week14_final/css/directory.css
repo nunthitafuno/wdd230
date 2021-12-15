@@ -1,53 +1,50 @@
 :root {
     --h-text: 'Noto', serif;
     --t-text: 'Quicksand', sans-serif;
-    --accent-b: #0c0900;
-    --accent-b-h:#5e512e;
-    --accent-g: #b6a168;
-    --accent-w:#ffff;
+   
 }
 .hero-img{
     margin-top: 12px;
     margin-bottom: 9px;
 }
 
-.toggle-biz {
+.toggle-trade {
     display: none;
 }
 
 /* cards view */
 
-.card-output-card {
+.card-output {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.biz-data-card {
+.trade-data-card {
     width: 280px;
     padding: 16px;
-    background-color: var(--accent-g);
+    background-color: #b6a168;
     margin-bottom: 16px;
     display: flex;
     flex-direction: column;
-    color: var(--accent-w);
+    color: #0c0900;
     letter-spacing: 0.1em;
     line-height: 1.2em;
 }
 
-.biz-data-card .img {
+.trade-data-card .img {
     margin: 0 auto;
 }
 
-.biz-data-card .biz-info {
+.trade-data-card .trade-info {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.biz-data-card .biz-info .name {
+.trade-data-card .biz-info .name {
     font-size: 22px;
     padding-bottom: 6px;
     padding-top: 6px;
@@ -55,14 +52,14 @@
 
 .button a {
     text-decoration: none;
-    color: var(--accent-w);
+    color: #ffff;
     font-weight: 700;
     font-family: var(--t-text);
 }
 
 .button a div {
     width: 160px;
-    border: 1px solid var(--accent-b);
+    border: 1px solid #0c0900;
     text-align: center;
     margin: 15px auto 0 auto;
     padding: 4px;
@@ -70,23 +67,23 @@
 }
 
 .button a div:hover {
-    border: 1px solid var(--accent-b);
+    border: 1px solid #b6a168;
     color: var(--accent-w);
 }
 
 /* ----- tablet view (36 em) -------------------------- */
 @media only screen and (min-width: 36em) { 
 
-    .toggle-biz {
+    .toggle-trade {
         margin-bottom: 16px;
         margin-left: 4px;
     }
 
-    .toggle-biz .active {
+    .toggle-trade .active {
         background-color: #b6a168;
     }
     
-    .toggle-biz {
+    .toggle-trade {
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -103,7 +100,7 @@
     }
     
     .b-button:hover {
-        background-color: var(--accent-w)
+        background-color: #ffff;
     }
 
 
@@ -112,41 +109,41 @@
         flex-direction: column;
     }
 
-    .biz-data-list {
+    .trade-data-list {
         width: 100%;
         padding: 16px;
-        background-color: var(--accent-g);
+        background-color: #b6a168;
         margin-bottom: 16px;
         display: flex;
         flex-direction: row;
-        color: var(--accent-w);
+        color: #0c0900;
         letter-spacing: 0.1em;
         line-height: 1.2em;
     }
 
-    .biz-data-list .biz-info {
+    .trade-data-list .trade-info {
         padding-left: 12px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .biz-data-list .biz-info div {
+    .trade-data-list .trade-info div {
         width: 260px;
     }
 
-    .biz-data-list .img {
+    .trade-data-list .img {
         width: 100px;
         margin: 0;
     }
 
-    .biz-data-list .img img {
+    .trade-data-list .img img {
         width: 75px;
         height: 75px;
         object-fit: cover;
     }
 
-    .biz-data-list .biz-info div .name {
+    .trade-data-list .trade-info div .name {
         font-size: 22px;
         padding-bottom: 7px;
         padding-top: 7px;

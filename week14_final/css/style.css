@@ -1,10 +1,7 @@
 :root {
     --h-text: 'Noto', serif;
     --t-text: 'Quicksand', sans-serif;
-    --accent-b: #0e0d0a;
-    --accent-b-h: #5e512e;
-    --accent-g:  #b6a168;;
-    --accent-w: #ffff;
+    
 }
 
 * {box-sizing: border-box;}
@@ -40,14 +37,10 @@ h3 {
 p {
     font-family: var(--t-text);
     letter-spacing: 0.05em;
-    line-height: 1.5em;
+    line-height: 1.5em
 }
 
-.hidden {
-    display: none;
-}
-
-.page-title {
+.title {
     text-align: center;
 }
 
@@ -71,26 +64,28 @@ p {
     left: 0;
     margin: 0 auto;
     padding: 5px;
-    
-    text-shadow: 10px 0px 10px black;
 }
 
-.address-sec {
+.hidden {
+    display: none;
+}
+
+.address-s {
     display: flex;
     flex-direction: column;
     margin-bottom: 0;
-    background-color: var(--accent-g);
+    background-color: #b6a168;
 }
 
 .contact {
     width: 100%;
     display: block;
-    color: var(--accent-b);
+    color: #0e0d0a;
     letter-spacing: 0.1em;
     line-height: 1.3em;
 }
 
-.contact-inner {
+.contact-zone {
     width: 224px;
     display: flex;
     padding-top: 60px;
@@ -108,7 +103,7 @@ p {
 .social a i {
     margin-right: 10px;
     font-size: 35px;
-    color: var(--accent-b);
+    color: #0e0d0a;
 }
 
 .address h2 {
@@ -127,22 +122,22 @@ p {
     border: 0;
 }
 
-.attribution-page-sec {
+.attribution {
     max-width: 800px;
     margin: 40px auto 80px auto;
     padding: 14px;
 }
 
-.attribution-page-sec h2 {
-    color: var(--accent-b-h);
+.attribution h2 {
+    color: #5e512e;
     font-weight: 700;
     text-align: left;
     margin-bottom: 16px;
     margin-top: 16px;
 }
 
-.attribution-page-sec h3 {
-    color: var(--accent-g);
+.attribution h3 {
+    color:  #ffff;
     font-weight: 600;
     text-align: left;
     margin-top: 12px;
@@ -152,7 +147,7 @@ p {
 /* ----- tablet view (36 em) -------------------------- */
 @media only screen and (min-width: 36em) {
 
-    .address-sec {
+    .address-s {
         flex-direction: row;
     }
 

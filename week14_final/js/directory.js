@@ -1,39 +1,38 @@
+// adding souce json file from my new repository to get json data work
 const events = 'https://nunthitafuno.github.io/json/directory.json';
-
-
 fetch(events)
   .then(function (response) {
     return response.json();
   })
   .then(function (object) {
       // store events array
-      let biz = object.biz;
+      let trade = object.trade;
 
     // loop through the events
-    for (let i = 0; i < biz.length; i++) {
-        let b = biz[i];
+    for (let i = 0; i < trade.length; i++) {
+        let t = trade[i];
 
         // create event output
         let eventOutput = `
-            <div class="biz-data-card">
+            <div class="trade-data-card">
                 <div class="img">
-                    <img src="${b.logo}" alt="${b.name} logo"</img>
+                    <img src="${t.logo}" alt="${t.name} logo"</img>
                 </div>
-                <div class="biz-info">
-                    <div class="name">${b.name}</div>
+                <div class="trade-info">
+                    <div class="name">${t.name}</div>
                     <div>
-                        <div class="address">${b.address}</div>
-                     
+                        <div class="address">${t.address}</div>
+                        <div>Phnom Penh, KH  12101</div>
                     </div>
                     <div>
-                        <div class="phone">${b.phone}</div>
+                        <div class="phone">${t.phone}</div>
                     </div>
                     <div>
-                        <div class="email">${b.email}</div>
-                        <div class="url">${b.url}</div>
+                        <div class="email">${t.email}</div>
+                        <div class="url">${t.url}</div>
                         <div class="button">
-                            <a href="http://www.${b.url}" target="_blank">
-                                <div>Check 'em Out</div> 
+                            <a href="http://www.${t.url}/" target="_blank">
+                                <div>Check it Out</div> 
                             </a>
                         </div>
                     </div>
@@ -41,35 +40,35 @@ fetch(events)
             </div>`;
 
         // output event to the webpage
-        document.querySelector('.card-output-card').insertAdjacentHTML('beforeend', eventOutput);
+        document.querySelector('.card-output').insertAdjacentHTML('beforeend', eventOutput);
     }
     })
     .then(function() {
 
-        const cardBtn = document.querySelector('#card');
-        const listBtn = document.querySelector('#list');
-        const cardOutput = document.querySelector('.card-output-card');
-        const bizData = document.querySelectorAll('.biz-data-card');
+        const card = document.querySelector('#card');
+        const list = document.querySelector('#list');
+        const outputCard = document.querySelector('.card-output');
+        const tradeData = document.querySelectorAll('.trade-data-card');
         
-        listBtn.addEventListener('click', () => {
-            listBtn.classList.toggle('active');
-            cardBtn.classList.toggle('active');
+        list.addEventListener('click', () => {
+            list.classList.toggle('active');
+            card.classList.toggle('active');
 
-            cardOutput.classList.add('card-output-list');
+            outputCard.classList.add('card-output-list');
         
-            bizData.forEach(function(e, i, bizData) {
-                bizData[i].classList.add('biz-data-list');
+            tradeData.forEach(function(e, i, tradeData) {
+                tradeData[i].classList.add('trade-data-list');
             });
         });
         
-        cardBtn.addEventListener('click', () => {
-            listBtn.classList.toggle('active');
-            cardBtn.classList.toggle('active');
+        card.addEventListener('click', () => {
+            list.classList.toggle('active');
+            card.classList.toggle('active');
 
-            cardOutput.classList.remove('card-output-list');
+            outputCard.classList.remove('card-output-list');
 
-            bizData.forEach(function(e, i, bizData) {
-                bizData[i].classList.remove('biz-data-list');
+            tradeData.forEach(function(e, i, tradeData) {
+                tradeData[i].classList.remove('trade-data-list');
             });
         });
 });

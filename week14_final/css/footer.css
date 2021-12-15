@@ -1,15 +1,12 @@
 :root {
     --h-text: 'Noto', serif;
     --t-text: 'Quicksand', sans-serif;
-    --accent-b: #070500;
-    --accent-b-h:#5e512e;
-    --accent-g: #f3eba5b6;
-    --accent-w: #b6a168;
+  
 }
 
 footer {
     min-height: 70px;
-    background-color: var(--accent-b);
+    background-color:#070500;
     padding: 14px;
     min-height: 4em;
     font-size: 0.85em;

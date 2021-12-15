@@ -1,10 +1,7 @@
 :root {
     --h-text: 'Noto', serif;
     --t-text: 'Quicksand', sans-serif;
-    --accent-b: #0a0a09;
-    --accent-b-h:#5e512eb7;
-    --accent-g:  #978154;
-    --accent-w: #fff;
+ 
 }
 
 .banner {
@@ -21,12 +18,12 @@
 }
 
 .banner:hover {
-    background-color: var(--accent-g);
+    background-color: #978154;
 }
 
 .banner a {
     text-decoration: none;
-    color: var(--accent-w);
+    color: #fff;
   
 }
 
@@ -36,8 +33,6 @@
 
 /* ----- desktop view (50 em) -------------------------- */
 @media only screen and (min-width: 50em) {
-    .banner {
-        border-radius: 40px 0 40px 0;
+   
     }
 
-}

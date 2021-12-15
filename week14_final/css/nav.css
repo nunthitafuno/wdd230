@@ -1,14 +1,10 @@
 :root {
     --h-text: 'Noto', serif;
     --t-text: 'Quicksand', sans-serif;
-    --accent-b: #0e0d0c;
-    --accent-b-h:#5e512e;
-    --accent-g:  #b6a168;
-    --accent-w: #fff;
 }
     nav {
 
-        background-color: var(--accent-g);
+        background-color: #b6a168;
         font-family: var(--h-text);
     }
     
@@ -30,12 +26,12 @@
     }
     
     nav ul li.active a {
-        background-color: var(--accent-w); 
+        background-color:#fff;
         border-radius: 16px 16px 0 0;
     }
     
     nav ul li.active a:hover {
-        background-color: var(--accent-w); 
+        background-color:#fff;
     }
     
     nav ul li a:hover {

@@ -1,10 +1,7 @@
 :root {
     --h-text: 'Merriweather', serif;
     --t-text: 'Source Sans Pro', sans-serif;
-    --accent-b: #0a0a09;
-    --accent-b-h:#5e512e;
-    --accent-g:  #978154;
-    --accent-w: #fff;
+  
 }
 
 .attribution {
@@ -38,25 +35,27 @@
     flex: 1 1 auto;
     height: 8px;
     margin: 8px;
-    border-bottom: 0.5px dotted var(--accent-b);
+    border-bottom: 0.5px dotted #0a0a09;
 }
 
 .stat-data-output .content .value {
     width: 75px;
 }
 
-.pp-banner {
+.pp-hero {
     position: relative;
     top: 10px;
     right: 10px;
+    display: block;
+    width: 100%;
 }
 
-.pp-banner img {
-    width: 600px;
+.pp-hero img {
+    width: 100%;
     height: 300px;
     object-fit: contain;
-
 }
+
 .events-sec {
     width: 100%;
     margin: 16px auto;
@@ -74,7 +73,7 @@
 }
 
 .events h2 {
-    color: var(--accent-b-h);
+    color: #0a0a09;
 }
 
 .event-list {
@@ -91,30 +90,20 @@
 .event-list div .e-name {
     letter-spacing: 0.15em;
     font-size: 18px;
-    font-weight: 600;
-    color: var(--accent-b);
+    font-weight: 600px;
+    color: #0a0a09;
     margin-bottom: 4px;
 
 }
 
 .event-list div .location {
-    color: var(--accent-b)
-}
-
-.pp-banner {
-    display: block;
-    width: 100%;
-    
-}
-.pp-banner img {
-    width: 100%;
-    
+    color: #0a0a09;
 
 }
 .history {
     max-width: 802px;
-    background-color: var(--accent-g);
-    color: var(--accent-w);
+    background-color:#978154;
+    color: #0a0a09;
     padding: 16px;
     margin: 0 auto;
 }
@@ -150,17 +139,17 @@
 @media only screen and (min-width: 36em) { 
 
     
-    .pp-banner {
+    .pp-hero{
         max-width: 100%;
     }
-    .pp-banner{
+    .pp-hero{
         display: block;
     }
 
     .history {
         max-width: 800px;
-        background-color: var(--accent-g);
-        color: var(--accent-w);
+        background-color: #978154;
+        color: #0a0a09;
         padding: 64px;
         margin: 0 auto;
         border-radius: 30px;
@@ -190,4 +179,3 @@
     }
 
 }
-
