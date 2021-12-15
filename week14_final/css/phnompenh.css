@@ -43,18 +43,16 @@
 }
 
 .pp-hero {
-    position: relative;
-    top: 10px;
-    right: 10px;
     display: block;
     width: 100%;
+    margin: 0 auto;
 }
 
-.pp-hero img {
+.pp-hero picture img {
     width: 100%;
-    height: 300px;
+    height: 370px;
     object-fit: contain;
-    align-items: center;
+
 }
 
 .events-sec {
