@@ -70,8 +70,8 @@ input, textarea {
 }
 
 .contact-us-form .input-section .submit:hover {
-    background-color: #fff;
-    color: var(--accent-w);
+    background-color: #5e512e;
+    color: var(--accent-b);
 }
 
 .contact-us-form form h3 {

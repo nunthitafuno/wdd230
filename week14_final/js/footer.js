@@ -1,8 +1,6 @@
-// wait for the page to load then make changes
 document.addEventListener('DOMContentLoaded', function() {
-    // get footer element
+
     let footer = document.querySelector('footer');
-    // create footer content
     let footerContent = 
         `© <span id="current-year"></span> | Nunthita Samrith | Phnom Penh
         <div class="footer-links">
@@ -11,6 +9,5 @@ document.addEventListener('DOMContentLoaded', function() {
             <a href="./attributions.html" target="_blank">Attributions</a>
         </div>
         <span id="last-updated">Modified: </span>`;
-    // output the footer content
     footer.innerHTML = footerContent;
  }, false);
