@@ -54,6 +54,7 @@
     width: 100%;
     height: 300px;
     object-fit: contain;
+    align-items: center;
 }
 
 .events-sec {
@@ -141,6 +142,7 @@
     
     .pp-hero{
         max-width: 100%;
+        
     }
     .pp-hero{
         display: block;
