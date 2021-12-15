@@ -87,14 +87,14 @@ input, textarea {
     width: 100%;
     background-color: var(--accent-g);
     color: var(--accent-b);
-    padding: 30px;
+    padding: 32px;
     padding-bottom: 60px;
 }
 
 .board-of-directors div {
-    width: 280px;
+    max-width: 370px;
     font-family: var(--t-text);
-    letter-spacing: 0.1em;
+   
     margin: 0 auto;
     padding-top: 8px;
 }
