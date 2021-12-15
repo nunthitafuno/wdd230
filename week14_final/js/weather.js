@@ -11,7 +11,7 @@ const alerts = [
       "event": "Heat Advisory",
       "start": "12/25/2021",
       "end": "12/27/2021",
-      "description": "Heat index  is expected to be greater than 105 degrees in Phnom Penh, PP area."
+      "description": "Heat index  is expected to be greater than 105 degrees in Phnom Penh, KH area."
     }
 ];
 fetch(requestURL)
