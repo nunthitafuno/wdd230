@@ -1,4 +1,4 @@
-const apiKey = 'de43bb2636c246adb4440e4c6280bfee';
+const apiKey = '11c5855a24cf892c6f4d0553a559f864';
 const latLon = 'lat=11.585230&lon=104.866200';
 const ex = 'exclude=hourly,minutely';
 const requestURL = `https://api.openweathermap.org/data/2.5/onecall?${latLon}&${ex}&units=imperial&appid=${apiKey}`;
