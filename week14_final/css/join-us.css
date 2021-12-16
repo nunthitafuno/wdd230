@@ -69,7 +69,7 @@ input, textarea {
 }
 
 .membership-type {
-    width: 100%;
+    max-width: 120%;
     background-color: #978154;
     color: #0a0a09;
     padding: 16px;
@@ -81,7 +81,7 @@ input, textarea {
     letter-spacing: 0.1em;
 }
 
-.far fa-gem {
+.fa-gem {
     font-size: 40px;
     margin: 6px;
 }
@@ -97,10 +97,11 @@ input, textarea {
 
 .ordinary-member {
     color: #0a0a09;
-    font-size: 30px;
+    font-size: 24px;
     border-top: 2px solid #0a0a09;
     border-bottom: 2px solid #0a0a09;
     text-align: center;
+    
 }
 
 .ordinary-member-caret-right{
@@ -110,7 +111,7 @@ input, textarea {
 
 .seas-member {
     color: #040f49;
-    font-size: 30px;
+    font-size: 27px;
     border-top: 2px solid #040f49;
     border-bottom: 2px solid #040f49;
     text-align: center;
@@ -123,7 +124,7 @@ input, textarea {
 
 .silver {
     color: #dcd9d6;
-    font-size: 30px;
+    font-size: 24px;
     border-top: 2px solid #dcd9d6;
     border-bottom: 2px solid #dcd9d6;
     text-align: center;
@@ -136,7 +137,7 @@ input, textarea {
 
 .gold {
     color: rgb(211, 181, 13);
-    font-size: 30px;
+    font-size: 24px;
     border-top: 2px solid goldenrod;
     border-bottom: 2px solid goldenrod;
     text-align: center;
@@ -148,7 +149,7 @@ input, textarea {
 }
 
 .thank-you {
-    max-width: 600px;
+    max-width: 620px;
     margin: 0 auto;
     padding: 40px 16px 80px 16px;
 }
@@ -181,8 +182,8 @@ input, textarea {
     }
 
     .membership-levels {
-        padding-top: 30px;
-        border-radius: 30px;
-        width: 50%;
+        padding-top: 27px;
+        border-radius: 27px;
+        width: 70%;
     }
 }
