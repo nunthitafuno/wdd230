@@ -96,11 +96,11 @@
         cursor: pointer;
         width: 80px;
         padding: 6px;
-        background-color: #5e512e;
+        background-color: #504d46;
     }
     
     .b-button:hover {
-        background-color: #ffff;
+        background-color: rgb(187, 179, 179);
     }
 
 
@@ -116,7 +116,7 @@
         margin-bottom: 16px;
         display: flex;
         flex-direction: row;
-        color: #0c0900;
+        color: rgb(14, 12, 12);
         letter-spacing: 0.1em;
         line-height: 1.2em;
     }
